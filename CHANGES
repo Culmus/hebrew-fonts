@@ -1,6 +1,25 @@
 Culmus Hebrew fonts
 ==============
 
+12-Jun-2004: Version 0.100
+------------------------- 
+This major release introduces two new typefaces: Miriam and Yehuda. It also
+reduces the size of most fonts to make them closer to the corresponding
+Windows/Mac fonts.
+
+Changes:
+ 1. Miriam - a new grotesque typeface in medium and bold variations.
+ 2. Yehuda - a new architect typeface in light and bold variations.
+ 3. Ktav Yad discontinued from the main package.
+ 4. Serif typefaces David, Drugulin and Frank Ruehl reduced by 17% to better
+    match Windows/Mac counterparts.
+ 5. Sans-serif typefaces Aharoni, Ellinia and Nachlieli reduced by 8%.
+ 6. Space between lines enlarged in most typefaces to improve readability.
+ 7. All font names now end with "CLM", to avoid confusion with non-Culmus
+    fonts.
+ 8. A new menorah symbol added to Caladings.
+ 9. Cantillation marks and extended punctuation added to Nachlieli.
+
 28-Jan-2004: Version 0.93 
 ------------------------- 
 This is a minor release that focuses primarily on improving the on-screen 

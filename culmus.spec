@@ -1,6 +1,6 @@
 Summary:	Free Hebrew Type1 fonts
 Name:		culmus-fonts
-Version:	0.93
+Version:	0.100
 Release:	1
 Vendor:		Culmus Project
 
@@ -36,11 +36,11 @@ BuildRequires:	XFree86
 # SuSE doesn't have chkfontpath. Strange.
 # Prereq:		chkfontpath
 
-%description 
-8 Hebrew font families. ASCII glyphs borrowed from the URW and Bitstream
-fonts.  Those families provide a basic set of a serif (Frank Ruehl), sans
-serif (Nachlieli) and monospaced (Miriam Mono) fonts. Also included
-Drugulin, Ktav Yad, Aharoni, David and Ellinia.
+%description
+9 Hebrew font families. ASCII glyphs partially borrowed from
+the URW and Bitstream fonts.  Those families provide a basic set of a
+serif (Frank Ruehl), sans serif (Nachlieli) and monospaced (Miriam Mono)
+fonts. Also included Miriam, Drugulin, Aharoni, David, Yehuda and Ellinia.
 
 Install the culmus-fonts package if you need a set of Hebrew fonts.
 
@@ -51,11 +51,13 @@ Install the culmus-fonts package if you need a set of Hebrew fonts.
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT%{fonts_dir}
 mkdir -p $RPM_BUILD_ROOT%{fcconf_dir}
+mkdir -p $RPM_BUILD_ROOT/tmp
 #cd fonts
 /usr/X11R6/bin/xftcache . || touch XftCache
 cp -f *.afm *.pfa $RPM_BUILD_ROOT%{fonts_dir}
 install -m 644 fonts.scale $RPM_BUILD_ROOT%{fonts_dir}/
 install -m 644 fonts.alias $RPM_BUILD_ROOT%{fonts_dir}/
+install -m 644 local.conf $RPM_BUILD_ROOT%{fonts_dir}/
 install -m 644 XftCache $RPM_BUILD_ROOT%{fonts_dir}/
 install -m 644 culmus.conf $RPM_BUILD_ROOT%{fcconf_dir}/
 
@@ -70,16 +72,22 @@ fi
 if which fc-cache >&/dev/null; then
   fc-cache
 fi
+# install /etc/fonts/local.conf, if it doesn't exist
+# for example, in Red Hat.
+if ! [ -f %{fcconf_dir}/local.conf ]; then
+	cp %{fonts_dir}/local.conf %{fcconf_dir}/
+fi
 # add culmus.conf include entry to local.conf
-if [ -f %{fcconf_dir}/local.conf ]; then
-        if !(grep -q -e culmus.conf %{fcconf_dir}/local.conf); then
-                sed -i -e '/<fontconfig>/a<include ignore_missing="yes">culmus.conf</include>' %{fcconf_dir}/local.conf
-        fi
+if !(grep -q -e culmus.conf %{fcconf_dir}/local.conf); then
+        sed -i -e '/<fontconfig>/a<include ignore_missing="yes">culmus.conf</include>' %{fcconf_dir}/local.conf
 fi
 
 %postun
 if [ "$1" = "0" ]; then
-	%{_sbindir}/chkfontpath -q -r %{fonts_dir}
+# if chkfontpath exists, execute it
+	if [ -x %{_sbindir}/chkfontpath ]; then
+		%{_sbindir}/chkfontpath -q -r %{fonts_dir}
+	fi
 fi
 
 %clean
@@ -96,8 +104,12 @@ rm -rf $RPM_BUILD_ROOT
 %config		   %{fcconf_dir}/culmus.conf
 %{fonts_dir}/*.afm
 %{fonts_dir}/*.pfa
+%{fonts_dir}/local.conf
 
 %changelog
+* Sat Jun 12 2004 Maxim Iorsh <iorsh@math.technion.ac.il> 0.100-1
+- /etc/fonts/local.conf is installed, if didn't exist previously
+
 * Wed Jan 28 2004 Maxim Iorsh <iorsh@math.technion.ac.il> 0.93-1
 - added custom configuration file /etc/fonts/culmus.conf
 - made chkfontpath non-mandatory (SuSE 9 doesn't have it)

@@ -1,20 +1,26 @@
-Drugulin font family (Hebrew glyphs) is copyright 2003-2004 by Maxim Iorsh
+This package is distributed under the terms of GNU General Public License
+version 2 (see file GNU-GPL).
+---------------------------------------------------------------------
+Miriam font family is copyright 2004 by Maxim Iorsh
+(iorsh@math.technion.ac.il). All rights reserved.
+
+Yehuda font family is copyright 2004 by Maxim Iorsh
+(iorsh@math.technion.ac.il). All rights reserved.
+
+Drugulin font family (Hebrew glyphs) is copyright 2003,2004 by Maxim Iorsh
 (iorsh@math.technion.ac.il).  Latin glyphs, digits and punctuation
 contained in the Drugulin font family are part of Nimbus Roman No9 L font
 family and are copyright 1999 by (URW)++ Design & Development. 
 All rights reserved.
 
-Ktav Yad font family is copyright 2003 by Maxim Iorsh
+Ellinia font family is copyright 2003,2004 by Maxim Iorsh
 (iorsh@math.technion.ac.il). All rights reserved.
 
-Ellinia font family is copyright 2003 by Maxim Iorsh
-(iorsh@math.technion.ac.il). All rights reserved.
-
-Caladings collection is copyright 2003 by Maxim Iorsh
+Caladings collection is copyright 2003,2004 by Maxim Iorsh
 (iorsh@math.technion.ac.il). All rights reserved.
 
 Digital version of Aharoni font family (Hebrew glyphs, numerals and part
-of punctuation) is copyright 2002,2003 by Maxim Iorsh
+of punctuation) is copyright 2002-2004 by Maxim Iorsh
 (iorsh@math.technion.ac.il).  Latin glyphs, digits and part of punctuation
 contained in the Aharoni font family are part of URW Gothic L font family
 and are copyright 1999 by (URW)++ Design & Development.
@@ -39,11 +45,8 @@ contained in the Nachlieli font family are part of Nimbus Sans L font
 family and are copyright 1999 by (URW)++ Design & Development. All 
 rights reserved.
 
-Miriam Mono font family (Hebrew glyphs) is copyright 2002,2003 by Maxim
+Miriam Mono font family (Hebrew glyphs) is copyright 2002-2004 by Maxim
 Iorsh (iorsh@math.technion.ac.il).  Latin glyphs, digits and punctuation
 contained in the Nachlieli font family are part of Nimbus Mono L font
 family and are copyright 1999 by (URW)++ Design & Development. All
 rights reserved.
-
-This package is distributed under the terms of GNU General Public License
-version 2 (see file GNU-GPL).

@@ -1,7 +1,7 @@
 Summary:	Free Hebrew Type1 fonts
 Name:		culmus-fonts
-Version:	0.90
-Release:	2
+Version:	0.93
+Release:	1
 Vendor:		Culmus Project
 
 # This is intended to solve the upgrading problems introduced by 
@@ -23,6 +23,7 @@ Epoch:		1
 
 %define     fonts_dir  %{_datadir}/fonts/he/Type1
 %define     doc_dir  %{_datadir}/doc/culmus-%{version}
+%define     fcconf_dir  %{_sysconfdir}/fonts
 
 Source0:	http://belnet.dl.sourceforge.net/sourceforge/culmus/culmus-%{version}.tar.gz
 
@@ -32,7 +33,8 @@ URL:		http://culmus.sourceforge.net/
 BuildRoot:	%_tmppath/%name-%version-%release-root
 BuildArch:	noarch
 BuildRequires:	XFree86
-Prereq:		chkfontpath
+# SuSE doesn't have chkfontpath. Strange.
+# Prereq:		chkfontpath
 
 %description 
 8 Hebrew font families. ASCII glyphs borrowed from the URW and Bitstream
@@ -48,20 +50,31 @@ Install the culmus-fonts package if you need a set of Hebrew fonts.
 %install
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT%{fonts_dir}
+mkdir -p $RPM_BUILD_ROOT%{fcconf_dir}
 #cd fonts
 /usr/X11R6/bin/xftcache . || touch XftCache
 cp -f *.afm *.pfa $RPM_BUILD_ROOT%{fonts_dir}
 install -m 644 fonts.scale $RPM_BUILD_ROOT%{fonts_dir}/
 install -m 644 fonts.alias $RPM_BUILD_ROOT%{fonts_dir}/
 install -m 644 XftCache $RPM_BUILD_ROOT%{fonts_dir}/
+install -m 644 culmus.conf $RPM_BUILD_ROOT%{fcconf_dir}/
 
 mkfontdir $RPM_BUILD_ROOT%{fonts_dir}
 
 %post
-%{_sbindir}/chkfontpath -q -a %{fonts_dir}
+# if chkfontpath exists, execute it
+if [ -x %{_sbindir}/chkfontpath ]; then
+	%{_sbindir}/chkfontpath -q -a %{fonts_dir}
+fi
 # avoid making fc-cache a requirement
 if which fc-cache >&/dev/null; then
   fc-cache
+fi
+# add culmus.conf include entry to local.conf
+if [ -f %{fcconf_dir}/local.conf ]; then
+        if !(grep -q -e culmus.conf %{fcconf_dir}/local.conf); then
+                sed -i -e '/<fontconfig>/a<include ignore_missing="yes">culmus.conf</include>' %{fcconf_dir}/local.conf
+        fi
 fi
 
 %postun
@@ -80,10 +93,15 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) %{fonts_dir}/fonts.scale
 %config(noreplace) %{fonts_dir}/fonts.alias
 %config(noreplace) %{fonts_dir}/XftCache
+%config		   %{fcconf_dir}/culmus.conf
 %{fonts_dir}/*.afm
 %{fonts_dir}/*.pfa
 
 %changelog
+* Wed Jan 28 2004 Maxim Iorsh <iorsh@math.technion.ac.il> 0.93-1
+- added custom configuration file /etc/fonts/culmus.conf
+- made chkfontpath non-mandatory (SuSE 9 doesn't have it)
+
 * Wed Sep 03 2003 Maxim Iorsh <iorsh@math.technion.ac.il> 0.90-2
 - fixed issue about printing from Open Office
 

@@ -1,6 +1,17 @@
 Culmus Hebrew fonts
 ==============
 
+19-Dec-2004: Version 0.101
+-------------------------
+This is a bugfix release aimed at the infamous "tet" bug in Nachlieli. It 
+fixes this bug, and also similar bugs in some other fonts.
+
+Changes:
+ Tet bug fixed in Ellinia CLM Light, David CLM Bold, Miriam Mono CLM Bold,
+ Miriam Mono CLM Bold Oblique, Nachlieli CLM Light, Nachlieli CLM Light 
+ Oblique. More information is available at 
+ http://qa.mandrakesoft.com/show_bug.cgi?id=11502
+
 12-Jun-2004: Version 0.100
 ------------------------- 
 This major release introduces two new typefaces: Miriam and Yehuda. It also

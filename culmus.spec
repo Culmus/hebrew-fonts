@@ -1,6 +1,6 @@
 Summary:	Free Hebrew Type1 fonts
 Name:		culmus-fonts
-Version:	0.100
+Version:	0.101
 Release:	1
 Vendor:		Culmus Project
 
@@ -37,6 +37,8 @@ BuildRequires:	XFree86
 # Prereq:		chkfontpath
 
 %description
+This version fixes the "tet" bug (see Mandrakesoft Bugzilla Bug 11502).
+
 9 Hebrew font families. ASCII glyphs partially borrowed from
 the URW and Bitstream fonts.  Those families provide a basic set of a
 serif (Frank Ruehl), sans serif (Nachlieli) and monospaced (Miriam Mono)

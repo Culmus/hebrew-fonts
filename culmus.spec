@@ -1,6 +1,6 @@
 Summary:	Free Hebrew Type1 fonts
 Name:		culmus-fonts
-Version:	0.101
+Version:	0.102
 Release:	1
 Vendor:		Culmus Project
 
@@ -21,14 +21,15 @@ Vendor:		Culmus Project
 # Minor releases could be added between them: 91, 92...
 Epoch:		1
 
-%define     fonts_dir  %{_datadir}/fonts/he/Type1
+%define     type1_fonts_dir  %{_datadir}/fonts/he/Type1
+%define     ttf_fonts_dir  %{_datadir}/fonts/he/TrueType
 %define     doc_dir  %{_datadir}/doc/culmus-%{version}
 %define     fcconf_dir  %{_sysconfdir}/fonts
 
 Source0:	http://belnet.dl.sourceforge.net/sourceforge/culmus/culmus-%{version}.tar.gz
 
 License:	GPL
-Group:		System/Fonts/Type1
+Group:		System/Fonts
 URL:		http://culmus.sourceforge.net/
 BuildRoot:	%_tmppath/%name-%version-%release-root
 BuildArch:	noarch
@@ -37,7 +38,7 @@ BuildRequires:	XFree86
 # Prereq:		chkfontpath
 
 %description
-This version fixes the "tet" bug (see Mandrakesoft Bugzilla Bug 11502).
+This version enhances the David font family.
 
 9 Hebrew font families. ASCII glyphs partially borrowed from
 the URW and Bitstream fonts.  Those families provide a basic set of a
@@ -51,24 +52,29 @@ Install the culmus-fonts package if you need a set of Hebrew fonts.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%{fonts_dir}
+mkdir -p $RPM_BUILD_ROOT%{type1_fonts_dir}
+mkdir -p $RPM_BUILD_ROOT%{ttf_fonts_dir}
 mkdir -p $RPM_BUILD_ROOT%{fcconf_dir}
 mkdir -p $RPM_BUILD_ROOT/tmp
 #cd fonts
 /usr/X11R6/bin/xftcache . || touch XftCache
-cp -f *.afm *.pfa $RPM_BUILD_ROOT%{fonts_dir}
-install -m 644 fonts.scale $RPM_BUILD_ROOT%{fonts_dir}/
-install -m 644 fonts.alias $RPM_BUILD_ROOT%{fonts_dir}/
-install -m 644 local.conf $RPM_BUILD_ROOT%{fonts_dir}/
-install -m 644 XftCache $RPM_BUILD_ROOT%{fonts_dir}/
+cp -f *.afm *.pfa $RPM_BUILD_ROOT%{type1_fonts_dir}
+cp -f *.ttf $RPM_BUILD_ROOT%{ttf_fonts_dir}
+install -m 644 fonts.scale-type1 $RPM_BUILD_ROOT%{type1_fonts_dir}/fonts.scale
+install -m 644 fonts.scale-ttf $RPM_BUILD_ROOT%{ttf_fonts_dir}/fonts.scale
+install -m 644 local.conf $RPM_BUILD_ROOT%{type1_fonts_dir}/
+install -m 644 XftCache $RPM_BUILD_ROOT%{type1_fonts_dir}/
+install -m 644 XftCache $RPM_BUILD_ROOT%{ttf_fonts_dir}/
 install -m 644 culmus.conf $RPM_BUILD_ROOT%{fcconf_dir}/
 
-mkfontdir $RPM_BUILD_ROOT%{fonts_dir}
+mkfontdir $RPM_BUILD_ROOT%{type1_fonts_dir}
+mkfontdir $RPM_BUILD_ROOT%{ttf_fonts_dir}
 
 %post
 # if chkfontpath exists, execute it
 if [ -x %{_sbindir}/chkfontpath ]; then
-	%{_sbindir}/chkfontpath -q -a %{fonts_dir}
+        %{_sbindir}/chkfontpath -q -a %{type1_fonts_dir}
+	%{_sbindir}/chkfontpath -q -a %{ttf_fonts_dir}
 fi
 # avoid making fc-cache a requirement
 if which fc-cache >&/dev/null; then
@@ -77,7 +83,7 @@ fi
 # install /etc/fonts/local.conf, if it doesn't exist
 # for example, in Red Hat.
 if ! [ -f %{fcconf_dir}/local.conf ]; then
-	cp %{fonts_dir}/local.conf %{fcconf_dir}/
+	cp %{type1_fonts_dir}/local.conf %{fcconf_dir}/
 fi
 # add culmus.conf include entry to local.conf
 if !(grep -q -e culmus.conf %{fcconf_dir}/local.conf); then
@@ -88,7 +94,8 @@ fi
 if [ "$1" = "0" ]; then
 # if chkfontpath exists, execute it
 	if [ -x %{_sbindir}/chkfontpath ]; then
-		%{_sbindir}/chkfontpath -q -r %{fonts_dir}
+                %{_sbindir}/chkfontpath -q -r %{type1_fonts_dir}
+		%{_sbindir}/chkfontpath -q -r %{ttf_fonts_dir}
 	fi
 fi
 
@@ -97,18 +104,25 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(0644,root,root,0755)
-%dir %{fonts_dir}
+%dir %{type1_fonts_dir}
+%dir %{ttf_fonts_dir}
 %doc CHANGES LICENSE LICENSE-BITSTREAM GNU-GPL
-%config(noreplace) %{fonts_dir}/fonts.dir
-%config(noreplace) %{fonts_dir}/fonts.scale
-%config(noreplace) %{fonts_dir}/fonts.alias
-%config(noreplace) %{fonts_dir}/XftCache
+%config(noreplace) %{type1_fonts_dir}/fonts.dir
+%config(noreplace) %{type1_fonts_dir}/fonts.scale
+%config(noreplace) %{type1_fonts_dir}/XftCache
+%config(noreplace) %{ttf_fonts_dir}/fonts.dir
+%config(noreplace) %{ttf_fonts_dir}/fonts.scale
+%config(noreplace) %{ttf_fonts_dir}/XftCache
 %config		   %{fcconf_dir}/culmus.conf
-%{fonts_dir}/*.afm
-%{fonts_dir}/*.pfa
-%{fonts_dir}/local.conf
+%{type1_fonts_dir}/*.afm
+%{type1_fonts_dir}/*.pfa
+%{ttf_fonts_dir}/*.ttf
+%{type1_fonts_dir}/local.conf
 
 %changelog
+* Sat Jul 17 2008 Maxim Iorsh <iorsh@math.technion.ac.il> 0.102-1
+- added TrueType directory
+
 * Sat Jun 12 2004 Maxim Iorsh <iorsh@math.technion.ac.il> 0.100-1
 - /etc/fonts/local.conf is installed, if didn't exist previously
 

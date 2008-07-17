@@ -1,6 +1,17 @@
 Culmus Hebrew fonts
 ==============
 
+17-Jul-2008: Version 0.102
+-------------------------
+This is a minor release which affects only David font family. David font
+is re-released in TrueType format with several enhancements.
+
+Changes:
+ 1. David font released in TrueType format.
+ 2. A new weight added: David CLM Bold Italic.
+ 3. Diacritics placement supported in OpenType-enabled software.
+ 4. Several new currency symbols and punctuation marks added.
+
 19-Dec-2004: Version 0.101
 -------------------------
 This is a bugfix release aimed at the infamous "tet" bug in Nachlieli. It 

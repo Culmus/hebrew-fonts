@@ -1,6 +1,6 @@
-Summary:	Free Hebrew Type1 fonts
+Summary:	Free Hebrew scalable fonts
 Name:		culmus-fonts
-Version:	0.102
+Version:	0.103
 Release:	1
 Vendor:		Culmus Project
 
@@ -33,12 +33,12 @@ Group:		System/Fonts
 URL:		http://culmus.sourceforge.net/
 BuildRoot:	%_tmppath/%name-%version-%release-root
 BuildArch:	noarch
-BuildRequires:	XFree86
+# BuildRequires:	XFree86
 # SuSE doesn't have chkfontpath. Strange.
 # Prereq:		chkfontpath
 
 %description
-This version enhances the David font family.
+This version fixes some bugs in the David font family.
 
 9 Hebrew font families. ASCII glyphs partially borrowed from
 the URW and Bitstream fonts.  Those families provide a basic set of a

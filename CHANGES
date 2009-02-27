@@ -1,6 +1,16 @@
 Culmus Hebrew fonts
 ==============
 
+27-Feb-2009: Version 0.103
+-------------------------
+This is a bugfix release for David TrueType fonts. 
+
+Changes:
+ 1. Fixed "yod-hiriq" placement.
+ 2. Fixed bad "dagesh" placement in some circumstances.
+ 3. Added "qamats qatan" and a few other diacritics.
+ 4. "Vav with holam haser" distinguished from "holam male".
+
 17-Jul-2008: Version 0.102
 -------------------------
 This is a minor release which affects only David font family. David font

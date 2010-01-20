@@ -1,6 +1,6 @@
 Summary:	Free Hebrew scalable fonts
 Name:		culmus-fonts
-Version:	0.103
+Version:	0.104
 Release:	1
 Vendor:		Culmus Project
 
@@ -38,7 +38,7 @@ BuildArch:	noarch
 # Prereq:		chkfontpath
 
 %description
-This version fixes some bugs in the David font family.
+This version enhances and adds OpenType diacritics support to Miriam.
 
 9 Hebrew font families. ASCII glyphs partially borrowed from
 the URW and Bitstream fonts.  Those families provide a basic set of a

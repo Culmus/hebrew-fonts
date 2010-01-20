@@ -3,9 +3,9 @@ FontName: DavidCLM-BoldItalic
 FullName: David CLM Bold Italic
 FamilyName: David CLM
 Weight: Bold
-Copyright: Copyright 2002-2009 by Maxim Iorsh (iorsh@math.technion.ac.il).\nDistributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html). \nLatin glyphs and part of punctuation copyright 1990 as an unpublished work by Bitstream Inc. \nAll rights reserved.
+Copyright: Copyright 2002-2010 by Maxim Iorsh (iorsh@users.sourceforge.net).\nDistributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html). \nLatin glyphs and part of punctuation copyright 1990 as an unpublished work by Bitstream Inc. \nAll rights reserved.
 UComments: "2002-9-22: Created." 
-Version: 0.103
+Version: 0.104
 ItalicAngle: 10
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1163025784
-ModificationTime: 1235598003
+ModificationTime: 1263850634
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -52,7 +52,7 @@ OS2StrikeYSize: 23848
 OS2StrikeYPos: -23460
 OS2Vendor: 'PfEd'
 Lookup: 6 1 0 "ccmpAltAyin"  {"ccmpAltAyin subtable"  } ['ccmp' ('hebr' <'dflt' > ) ]
-Lookup: 1 1 0 "Single Substitution lookup 1"  {"Single Substitution lookup 1 subtable"  } []
+Lookup: 1 1 0 "Single Substitution lookup 10"  {"Single Substitution lookup 10 subtable"  } []
 Lookup: 6 1 0 "ccmpVavHolam"  {"ccmpVavHolam subtable"  } ['ccmp' ('hebr' <'dflt' > ) ]
 Lookup: 1 1 0 "salt MiscSAlt"  {"MiscSAlt"  } ['salt' ('hebr' <'dflt' > ) ]
 Lookup: 4 1 0 "ccmp AlephLamed2"  {"AlephLamed2"  } ['ccmp' ('hebr' <'JUD ' > ) ]
@@ -60,10 +60,11 @@ Lookup: 4 1 0 "dlig AlephLamed"  {"AlephLamed"  } ['dlig' ('hebr' <'dflt' > ) ]
 Lookup: 4 1 0 "ccmp CustomPrecomp"  {"CustomPrecomp"  } ['ccmp' ('hebr' <'dflt' > ) ]
 Lookup: 1 1 0 "jalt WideLetters"  {"WideLetters"  } ['jalt' ('hebr' <'dflt' > ) ]
 Lookup: 1 1 0 "ccmp Yiddish2"  {"Yiddish2"  } ['ccmp' ('hebr' <'JII ' > ) ]
+Lookup: 4 1 0 "ccmp Yiddish_dflt"  {"Yiddish_dflt"  } ['ccmp' ('hebr' <'dflt' > ) ]
 Lookup: 4 1 0 "ccmp Yiddish"  {"Yiddish"  } ['ccmp' ('hebr' <'JII ' > ) ]
 Lookup: 4 1 0 "ccmp SinShin"  {"SinShin"  } ['ccmp' ('hebr' <'dflt' > ) ]
 Lookup: 4 1 0 "ccmp Dagesh"  {"Dagesh"  } ['ccmp' ('hebr' <'dflt' > ) ]
-Lookup: 4 1 0 "Ligature Substitution lookup 3"  {"Ligature Substitution lookup 3 subtable"  } []
+Lookup: 4 1 0 "Ligature Substitution lookup 12"  {"Ligature Substitution lookup 12 subtable"  } []
 Lookup: 260 1 0 "DiaToBaseD"  {"DiaToBaseD"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 260 1 0 "DiaToBaseO"  {"DiaToBaseO"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 260 1 0 "DiaToBaseU"  {"DiaToBaseU"  } ['mark' ('hebr' <'dflt' > ) ]
@@ -79,14 +80,14 @@ ChainSub2: coverage "ccmpVavHolam subtable"  0 0 0 1
   Coverage: 9 afii57806
   BCoverage: 117 afii57793 afii57794 afii57795 afii57796 afii57797 afii57798 afii57799 afii57800 afii57801 afii57802 uni05C7 afii57806
  1
-  SeqLookup: 0 "Ligature Substitution lookup 3" 
+  SeqLookup: 0 "Ligature Substitution lookup 12" 
 EndFPST
 ChainSub2: coverage "ccmpAltAyin subtable"  0 0 0 1
  1 0 1
   Coverage: 9 afii57682
   FCoverage: 107 afii57793 afii57794 afii57795 afii57796 afii57797 afii57798 afii57799 afii57800 afii57801 afii57802 uni05C7
  1
-  SeqLookup: 0 "Single Substitution lookup 1" 
+  SeqLookup: 0 "Single Substitution lookup 10" 
 EndFPST
 ShortTable: cvt  2
   40
@@ -5088,7 +5089,7 @@ SplineSet
  -0.5 520.5 26.5 586.5 63.2246 639 c 1
 EndSplineSet
 Substitution2: "MiscSAlt" uniFB20
-Substitution2: "Single Substitution lookup 1 subtable" uniFB20
+Substitution2: "Single Substitution lookup 10 subtable" uniFB20
 Comment: "%DiaToBaseO+AD0A-40+AAoA" 
 EndChar
 
@@ -5649,7 +5650,7 @@ LayerCount: 2
 Fore
 Refer: 119 1493 N 1 0 0 1 0 0 2
 Refer: 208 1466 N 1 0 0 1 0 0 2
-Ligature2: "Ligature Substitution lookup 3 subtable" afii57669 afii57806
+Ligature2: "Ligature Substitution lookup 12 subtable" afii57669 afii57806
 EndChar
 
 StartChar: uniE802
@@ -5738,6 +5739,7 @@ Fore
 Refer: 101 1463 N 1 0 0 1 370 182.5 2
 Refer: 123 1497 N 1 0 0 1 0 0 2
 Refer: 123 1497 N 1 0 0 1 369 0 2
+Ligature2: "Yiddish_dflt" afii57718 afii57798
 Ligature2: "Yiddish" afii57718 afii57798
 Ligature2: "Yiddish" afii57673 afii57673 afii57798
 LCarets2: 2 0 0 
@@ -6317,6 +6319,7 @@ LayerCount: 2
 Fore
 Refer: 108 1471 S 1 0 0 1 328 0 2
 Refer: 115 1489 N 1 0 0 1 0 0 2
+Ligature2: "Yiddish_dflt" afii57665 afii57841
 Ligature2: "Yiddish" afii57665 afii57841
 LCarets2: 1 0 
 EndChar
@@ -6330,6 +6333,7 @@ LayerCount: 2
 Fore
 Refer: 108 1471 S 1 0 0 1 313 0 2
 Refer: 125 1499 N 1 0 0 1 0 0 2
+Ligature2: "Yiddish_dflt" afii57675 afii57841
 Ligature2: "Yiddish" afii57675 afii57841
 LCarets2: 1 0 
 EndChar
@@ -6343,6 +6347,7 @@ LayerCount: 2
 Fore
 Refer: 108 1471 S 1 0 0 1 342 0 2
 Refer: 134 1508 N 1 0 0 1 0 0 2
+Ligature2: "Yiddish_dflt" afii57684 afii57841
 Ligature2: "Yiddish" afii57684 afii57841
 LCarets2: 1 0 
 EndChar

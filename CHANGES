@@ -1,6 +1,15 @@
 Culmus Hebrew fonts
 ==============
 
+19-Jan-2010: Version 0.104
+-------------------------
+Miriam font family is enhanced and re-released in TrueType format.
+
+Changes:
+ 1. Fixed TZVEY YUDN MIT A PASEKH in David.
+ 2. Miriam font released in TrueType format.
+ 3. Miriam font enhanced to support diacritics, more symbols.
+
 27-Feb-2009: Version 0.103
 -------------------------
 This is a bugfix release for David TrueType fonts. 

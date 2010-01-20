@@ -3,9 +3,9 @@ FontName: DavidCLM-Medium
 FullName: David CLM Medium
 FamilyName: David CLM
 Weight: Medium
-Copyright: Copyright 2002-2009 by Maxim Iorsh (iorsh@math.technion.ac.il).\nDistributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html). \nLatin glyphs and part of punctuation copyright 1990 as an unpublished work by Bitstream Inc. \nAll rights reserved.
+Copyright: Copyright 2002-2010 by Maxim Iorsh (iorsh@users.sourceforge.net).\nDistributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html). \nLatin glyphs and part of punctuation copyright 1990 as an unpublished work by Bitstream Inc. \nAll rights reserved.
 UComments: "2002-9-22: Created.+AAoA-Substracting 20 on both sides of alef-tav for kerning" 
-Version: 0.103
+Version: 0.104
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1163025784
-ModificationTime: 1235458521
+ModificationTime: 1263850471
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -50,6 +50,7 @@ Lookup: 4 1 0 "dlig AlephLamed"  {"AlephLamed"  } ['dlig' ('hebr' <'dflt' > ) ]
 Lookup: 4 1 0 "ccmp CustomPrecomp"  {"CustomPrecomp"  } ['ccmp' ('hebr' <'dflt' > ) ]
 Lookup: 1 1 0 "jalt WideLetters"  {"WideLetters"  } ['jalt' ('hebr' <'dflt' > ) ]
 Lookup: 1 1 0 "ccmp Yiddish2"  {"Yiddish2"  } ['ccmp' ('hebr' <'JII ' > ) ]
+Lookup: 4 1 0 "ccmp Yiddish_dflt"  {"Yiddish_dflt"  } ['ccmp' ('hebr' <'dflt' > ) ]
 Lookup: 4 1 0 "ccmp Yiddish"  {"Yiddish"  } ['ccmp' ('hebr' <'JII ' > ) ]
 Lookup: 4 1 0 "ccmp SinShin"  {"SinShin"  } ['ccmp' ('hebr' <'dflt' > ) ]
 Lookup: 4 1 0 "ccmp Dagesh"  {"Dagesh"  } ['ccmp' ('hebr' <'dflt' > ) ]
@@ -5753,6 +5754,7 @@ Fore
 Refer: 101 1463 N 1 0 0 1 315 170 2
 Refer: 123 1497 N 1 0 0 1 0 0 2
 Refer: 123 1497 N 1 0 0 1 329 0 2
+Ligature2: "Yiddish_dflt" afii57718 afii57798
 Ligature2: "Yiddish" afii57718 afii57798
 Ligature2: "Yiddish" afii57673 afii57673 afii57798
 LCarets2: 2 0 0 
@@ -6423,6 +6425,7 @@ LayerCount: 2
 Fore
 Refer: 108 1471 S 0.92189 0 0 1 313.065 0 2
 Refer: 115 1489 N 1 0 0 1 0 0 2
+Ligature2: "Yiddish_dflt" afii57665 afii57841
 Ligature2: "Yiddish" afii57665 afii57841
 LCarets2: 1 0 
 EndChar
@@ -6438,6 +6441,7 @@ LayerCount: 2
 Fore
 Refer: 108 1471 S 0.92189 0 0 1 311.065 0 2
 Refer: 125 1499 N 1 0 0 1 0 0 2
+Ligature2: "Yiddish_dflt" afii57675 afii57841
 Ligature2: "Yiddish" afii57675 afii57841
 LCarets2: 1 0 
 EndChar
@@ -6453,6 +6457,7 @@ LayerCount: 2
 Fore
 Refer: 108 1471 N 1 0 0 1 304 0 2
 Refer: 134 1508 N 1 0 0 1 0 0 2
+Ligature2: "Yiddish_dflt" afii57684 afii57841
 Ligature2: "Yiddish" afii57684 afii57841
 LCarets2: 1 0 
 EndChar

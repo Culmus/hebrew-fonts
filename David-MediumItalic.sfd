@@ -5,7 +5,7 @@ FamilyName: David CLM
 Weight: Medium
 Copyright: Copyright 2002-2010 by Maxim Iorsh (iorsh@users.sourceforge.net).\nDistributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html). \nLatin glyphs and part of punctuation copyright 1990 as an unpublished work by Bitstream Inc. \nAll rights reserved.
 UComments: "2002-9-22: Created." 
-Version: 0.104
+Version: 0.105
 ItalicAngle: 10
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1163025784
-ModificationTime: 1263850589
+ModificationTime: 1282506977
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -61,6 +61,7 @@ Lookup: 260 1 0 "DiaToBaseU"  {"DiaToBaseU"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 260 1 0 "DiaToBase3"  {"DiaToBase3"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 260 1 0 "DiaToBase2"  {"DiaToBase2"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 260 1 0 "DiaToBase1"  {"DiaToBase1"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 258 1 0 "_Diakern"  {"_Diakern"  } ['kern' ('hebr' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 5"  {"'kern' Horizontal Kerning in Latin lookup 5 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 6"  {"'kern' Horizontal Kerning lookup 6 subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
 DEI: 91125
@@ -87,7 +88,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 78 13 7
+WinInfo: 65 13 7
 Grid
 -64 694 m 2
  704 694 l 17
@@ -3642,31 +3643,31 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--94.2383 -236.176 m 1
- -84.8867 -213.837 -71.5957 -197.702 -51.6016 -184.41 c 1
- -26.9189 -197.702 -7.9375 -213.837 9.29199 -236.176 c 1
- -0.0595703 -258.515 -13.3506 -274.651 -33.3467 -287.941 c 1
- -58.0273 -274.651 -77.0088 -258.515 -94.2383 -236.176 c 1
-145.174 -236.176 m 1
- 154.524 -213.837 167.816 -197.702 187.812 -184.41 c 1
- 212.493 -197.702 231.475 -213.837 248.703 -236.176 c 1
- 239.353 -258.515 226.062 -274.651 206.066 -287.941 c 1
- 181.385 -274.651 162.402 -258.515 145.174 -236.176 c 1
-122.355 -106.765 m 1
- 131.705 -84.4258 144.997 -68.2891 164.993 -55 c 1
- 189.674 -68.2891 208.655 -84.4258 225.885 -106.765 c 1
- 216.533 -129.103 203.242 -145.238 183.248 -158.528 c 1
- 158.565 -145.238 139.583 -129.103 122.355 -106.765 c 1
--45.8799 -106.765 m 1
- -36.5283 -84.4258 -23.2383 -68.2891 -3.24316 -55 c 1
- 21.4385 -68.2891 40.4209 -84.4258 57.6484 -106.765 c 1
- 48.2988 -129.103 35.0068 -145.238 15.0117 -158.528 c 1
- -9.66992 -145.238 -28.6504 -129.103 -45.8799 -106.765 c 1
--188.233 -106.765 m 1
- -178.883 -84.4258 -165.592 -68.2891 -145.597 -55 c 1
- -120.914 -68.2891 -101.933 -84.4258 -84.7031 -106.765 c 1
- -94.0547 -129.103 -107.346 -145.238 -127.342 -158.528 c 1
- -152.023 -145.238 -171.005 -129.103 -188.233 -106.765 c 1
+-89.2383 -236.176 m 1
+ -79.8867 -213.837 -66.5957 -197.702 -46.6016 -184.41 c 1
+ -21.9189 -197.702 -2.9375 -213.837 14.292 -236.176 c 1
+ 4.94043 -258.515 -8.35059 -274.651 -28.3467 -287.941 c 1
+ -53.0273 -274.651 -72.0088 -258.515 -89.2383 -236.176 c 1
+140.174 -236.176 m 5
+ 149.524 -213.837 162.816 -197.702 182.812 -184.41 c 5
+ 207.493 -197.702 226.475 -213.837 243.703 -236.176 c 5
+ 234.353 -258.515 221.062 -274.651 201.066 -287.941 c 5
+ 176.385 -274.651 157.402 -258.515 140.174 -236.176 c 5
+117.355 -106.765 m 5
+ 126.705 -84.4258 139.997 -68.2891 159.993 -55 c 5
+ 184.674 -68.2891 203.655 -84.4258 220.885 -106.765 c 5
+ 211.533 -129.103 198.242 -145.238 178.248 -158.528 c 5
+ 153.565 -145.238 134.583 -129.103 117.355 -106.765 c 5
+-40.8799 -106.765 m 1
+ -31.5283 -84.4258 -18.2383 -68.2891 1.75684 -55 c 1
+ 26.4385 -68.2891 45.4209 -84.4258 62.6484 -106.765 c 1
+ 53.2988 -129.103 40.0068 -145.238 20.0117 -158.528 c 1
+ -4.66992 -145.238 -23.6504 -129.103 -40.8799 -106.765 c 1
+-183.233 -106.765 m 1
+ -173.883 -84.4258 -160.592 -68.2891 -140.597 -55 c 1
+ -115.914 -68.2891 -96.9326 -84.4258 -79.7031 -106.765 c 1
+ -89.0547 -129.103 -102.346 -145.238 -122.342 -158.528 c 1
+ -147.023 -145.238 -166.005 -129.103 -183.233 -106.765 c 1
 EndSplineSet
 EndChar
 
@@ -3697,21 +3698,21 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--173.14 -68.9111 m 5
- 75.3604 -68.9111 l 5
- 72.1592 -95.0381 64.9463 -116.677 51.8311 -139.499 c 5
- -196.669 -139.499 l 21
- -193.468 -113.372 -186.255 -91.7334 -173.14 -68.9111 c 5
-152.523 -236.176 m 1
- 161.873 -213.837 175.164 -197.702 195.158 -184.41 c 1
- 219.84 -197.702 238.822 -213.837 256.05 -236.176 c 1
- 246.7 -258.515 233.408 -274.651 213.414 -287.941 c 1
- 188.732 -274.651 169.751 -258.515 152.523 -236.176 c 1
-129.704 -106.765 m 1
- 139.055 -84.4258 152.346 -68.2891 172.34 -55 c 1
- 197.021 -68.2891 216.004 -84.4258 233.231 -106.765 c 1
- 223.881 -129.103 210.59 -145.238 190.595 -158.528 c 1
- 165.913 -145.238 146.933 -129.103 129.704 -106.765 c 1
+-168.14 -68.9111 m 1
+ 80.3604 -68.9111 l 1
+ 77.1592 -95.0381 69.9463 -116.677 56.8311 -139.499 c 1
+ -191.669 -139.499 l 17
+ -188.468 -113.372 -181.255 -91.7334 -168.14 -68.9111 c 1
+147.523 -236.176 m 5
+ 156.873 -213.837 170.164 -197.702 190.158 -184.41 c 5
+ 214.84 -197.702 233.822 -213.837 251.05 -236.176 c 5
+ 241.7 -258.515 228.408 -274.651 208.414 -287.941 c 5
+ 183.732 -274.651 164.751 -258.515 147.523 -236.176 c 5
+124.704 -106.765 m 5
+ 134.055 -84.4258 147.346 -68.2891 167.34 -55 c 5
+ 192.021 -68.2891 211.004 -84.4258 228.231 -106.765 c 5
+ 218.881 -129.103 205.59 -145.238 185.595 -158.528 c 5
+ 160.913 -145.238 141.933 -129.103 124.704 -106.765 c 5
 EndSplineSet
 EndChar
 
@@ -3719,7 +3720,7 @@ StartChar: afii57802
 Encoding: 1459 1459 97
 Width: 0
 VWidth: 1100
-Flags: MW
+Flags: HMW
 AnchorPoint: "DiaToBase3" 0 0 mark 0
 LayerCount: 2
 Back
@@ -3747,27 +3748,28 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-57.5 -139.5 m 1
- -27.6074 -139.5 l 1
- -9.26953 -243.5 l 1
- -21.1953 -245.562 -31.585 -246.44 -44.0459 -246.44 c 1
- -56.5049 -246.44 -67.207 -245.562 -79.8574 -243.5 c 1
- -98.1953 -139.5 l 1
- -201 -139.5 l 17
- -197.799 -113.373 -190.586 -91.7344 -177.471 -68.9121 c 1
- 81.0293 -68.9121 l 1
- 77.8281 -95.0391 70.6152 -116.678 57.5 -139.5 c 1
-158.116 -236.176 m 1
- 167.466 -213.837 180.757 -197.702 200.751 -184.41 c 1
- 225.435 -197.702 244.415 -213.837 261.645 -236.176 c 1
- 252.293 -258.515 239.002 -274.651 219.007 -287.941 c 1
- 194.325 -274.651 175.344 -258.515 158.116 -236.176 c 1
-135.298 -106.765 m 1
- 144.647 -84.4258 157.938 -68.2891 177.933 -55 c 1
- 202.615 -68.2891 221.597 -84.4258 238.825 -106.765 c 1
- 229.475 -129.103 216.184 -145.238 196.188 -158.528 c 1
- 171.507 -145.238 152.525 -129.103 135.298 -106.765 c 1
+62.5 -139.5 m 1
+ -22.6074 -139.5 l 1
+ -4.26953 -243.5 l 1
+ -16.1953 -245.562 -26.585 -246.44 -39.0459 -246.44 c 1
+ -51.5049 -246.44 -62.207 -245.562 -74.8574 -243.5 c 1
+ -93.1953 -139.5 l 1
+ -196 -139.5 l 17
+ -192.799 -113.373 -185.586 -91.7344 -172.471 -68.9121 c 1
+ 86.0293 -68.9121 l 1
+ 82.8281 -95.0391 75.6152 -116.678 62.5 -139.5 c 1
+153.116 -236.176 m 5
+ 162.466 -213.837 175.757 -197.702 195.751 -184.41 c 5
+ 220.435 -197.702 239.415 -213.837 256.645 -236.176 c 5
+ 247.293 -258.515 234.002 -274.651 214.007 -287.941 c 5
+ 189.325 -274.651 170.344 -258.515 153.116 -236.176 c 5
+130.298 -106.765 m 5
+ 139.647 -84.4258 152.938 -68.2891 172.933 -55 c 5
+ 197.615 -68.2891 216.597 -84.4258 233.825 -106.765 c 5
+ 224.475 -129.103 211.184 -145.238 191.188 -158.528 c 5
+ 166.507 -145.238 147.525 -129.103 130.298 -106.765 c 5
 EndSplineSet
+Kerns2: 193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable"  193 0 "'kern' Horizontal Kerning lookup 6 subtable" 
 EndChar
 
 StartChar: afii57793
@@ -4267,6 +4269,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 248 0 basechar 0
 AnchorPoint: "DiaToBaseO" 80 0 basechar 0
 AnchorPoint: "DiaToBaseU" 260 0 basechar 0
+AnchorPoint: "DiaToBase3" 290 0 basechar 0
 AnchorPoint: "DiaToBase2" 285 0 basechar 0
 AnchorPoint: "DiaToBase1" 280 0 basechar 0
 LayerCount: 2
@@ -4308,7 +4311,8 @@ SplineSet
  168.248 498.625 88.5928 500.587 8.84766 516.021 c 1
  28.5059 560.127 55.626 593.94 91.209 616.974 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-280+AAoA%DiaToBase2+AD0A-285+AAoA%DiaToBaseU+AD0A-260+AAoA%DiaToBaseO+AD0A-80+AAoA" 
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
+Comment: "%DiaToBase1+AD0A-280+AAoA%DiaToBase2+AD0A-285+AAoA%DiaToBaseU+AD0A-260+AAoA%DiaToBaseO+AD0A-80+AAoA%DiaToBase3+AD0A-290+AAoA" 
 EndChar
 
 StartChar: afii57666
@@ -4319,6 +4323,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 128 -18 basechar 0
 AnchorPoint: "DiaToBaseO" 60 0 basechar 0
 AnchorPoint: "DiaToBaseU" 170 0 basechar 0
+AnchorPoint: "DiaToBase3" 185 0 basechar 0
 AnchorPoint: "DiaToBase2" 180 0 basechar 0
 AnchorPoint: "DiaToBase1" 185 0 basechar 0
 LayerCount: 2
@@ -4348,7 +4353,8 @@ SplineSet
  130.471 410.662 79.6777 468.488 11.9023 531.214 c 1
  32.042 570.418 55.1572 602.762 84.2422 626.284 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-185+AAoA%DiaToBase2+AD0A-180+AAoA%DiaToBaseU+AD0A-170+AAoA%DiaToBaseO+AD0A-60+AAoA" 
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
+Comment: "%DiaToBase1+AD0A-185+AAoA%DiaToBase2+AD0A-180+AAoA%DiaToBaseU+AD0A-170+AAoA%DiaToBaseO+AD0A-60+AAoA%DiaToBase3+AD0A-185+AAoA" 
 EndChar
 
 StartChar: afii57667
@@ -4359,6 +4365,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 192 -18 basechar 0
 AnchorPoint: "DiaToBaseO" 10 0 basechar 0
 AnchorPoint: "DiaToBaseU" 280 0 basechar 0
+AnchorPoint: "DiaToBase3" 310 0 basechar 0
 AnchorPoint: "DiaToBase2" 320 0 basechar 0
 AnchorPoint: "DiaToBase1" 360 0 basechar 0
 LayerCount: 2
@@ -4392,8 +4399,9 @@ SplineSet
  258.384 425.919 275.552 454.292 282.67 466.527 c 1
  137.839 513.572 39.8496 516.513 -36.1328 521.413 c 1
 EndSplineSet
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
 Substitution2: "WideLetters" uniFB22
-Comment: "%DiaToBase1+AD0A-360+AAoA%DiaToBase2+AD0A-320+AAoA%DiaToBaseU+AD0A-280+AAoA%DiaToBaseO+AD0A-10+AAoA" 
+Comment: "%DiaToBase1+AD0A-360+AAoA%DiaToBase2+AD0A-320+AAoA%DiaToBaseU+AD0A-280+AAoA%DiaToBaseO+AD0A-10+AAoA%DiaToBase3+AD0A-310+AAoA" 
 EndChar
 
 StartChar: afii57668
@@ -4454,6 +4462,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 98 -32 basechar 0
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 180 0 basechar 0
+AnchorPoint: "DiaToBase3" 190 0 basechar 0
 AnchorPoint: "DiaToBase2" 190 0 basechar 0
 AnchorPoint: "DiaToBase1" 210 0 basechar 0
 LayerCount: 2
@@ -4477,7 +4486,7 @@ SplineSet
  104.74 409.12 44.6172 451.826 -39.1152 526.312 c 1
  -23.9756 565.518 -2.85254 599.821 27.2422 626.284 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-210+AAoA%DiaToBase2+AD0A-190+AAoA%DiaToBaseU+AD0A-180+AAoA%DiaToBaseO+AD0A-30+AAoA" 
+Comment: "%DiaToBase1+AD0A-210+AAoA%DiaToBase2+AD0A-190+AAoA%DiaToBaseU+AD0A-180+AAoA%DiaToBaseO+AD0A-30+AAoA%DiaToBase3+AD0A-190+AAoA" 
 EndChar
 
 StartChar: afii57670
@@ -4488,6 +4497,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 94 0 basechar 0
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 180 0 basechar 0
+AnchorPoint: "DiaToBase3" 200 0 basechar 0
 AnchorPoint: "DiaToBase2" 185 0 basechar 0
 AnchorPoint: "DiaToBase1" 200 0 basechar 0
 LayerCount: 2
@@ -4519,7 +4529,7 @@ SplineSet
  63.7432 487.109 18.8018 503.281 -15.1416 518.963 c 1
  -3.02637 551.307 21.1475 599.821 52.7422 626.284 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-200+AAoA%DiaToBase2+AD0A-185+AAoA%DiaToBaseU+AD0A-180+AAoA%DiaToBaseO+AD0A-30+AAoA" 
+Comment: "%DiaToBase1+AD0A-200+AAoA%DiaToBase2+AD0A-185+AAoA%DiaToBaseU+AD0A-180+AAoA%DiaToBaseO+AD0A-30+AAoA%DiaToBase3+AD0A-200+AAoA" 
 EndChar
 
 StartChar: afii57671
@@ -4582,6 +4592,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 414 0 basechar 0
 AnchorPoint: "DiaToBaseO" 20 0 basechar 0
 AnchorPoint: "DiaToBaseU" 320 0 basechar 0
+AnchorPoint: "DiaToBase3" 365 0 basechar 0
 AnchorPoint: "DiaToBase2" 350 0 basechar 0
 AnchorPoint: "DiaToBase1" 330 0 basechar 0
 LayerCount: 2
@@ -4627,7 +4638,8 @@ SplineSet
  47.0928 396.588 4.02441 460.156 -35.3428 511.121 c 1
  -24.7861 551.306 7.43555 595.41 36.79 626.284 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-330+AAoA%DiaToBase2+AD0A-350+AAoA%DiaToBaseU+AD0A-320+AAoA%DiaToBaseO+AD0A-20+AAoA" 
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
+Comment: "%DiaToBase1+AD0A-330+AAoA%DiaToBase2+AD0A-350+AAoA%DiaToBaseU+AD0A-320+AAoA%DiaToBaseO+AD0A-20+AAoA%DiaToBase3+AD0A-365+AAoA" 
 EndChar
 
 StartChar: afii57673
@@ -4638,6 +4650,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 112 36 basechar 0
 AnchorPoint: "DiaToBaseO" 10 0 basechar 0
 AnchorPoint: "DiaToBaseU" 150 0 basechar 0
+AnchorPoint: "DiaToBase3" 170 0 basechar 0
 AnchorPoint: "DiaToBase2" 170 0 basechar 0
 AnchorPoint: "DiaToBase1" 180 0 basechar 0
 LayerCount: 2
@@ -4659,7 +4672,7 @@ SplineSet
  127.256 459.484 52.7197 480.249 -36.1367 520.434 c 1
  -17.9893 561.598 -1.86816 595.41 37.2422 626.284 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-180+AAoA%DiaToBase2+AD0A-170+AAoA%DiaToBaseU+AD0A-150+AAoA%DiaToBaseO+AD0A-10+AAoA" 
+Comment: "%DiaToBase1+AD0A-180+AAoA%DiaToBase2+AD0A-170+AAoA%DiaToBaseU+AD0A-150+AAoA%DiaToBaseO+AD0A-10+AAoA%DiaToBase3+AD0A-170+AAoA" 
 EndChar
 
 StartChar: afii57674
@@ -4707,6 +4720,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 246 0 basechar 0
 AnchorPoint: "DiaToBaseO" 60 0 basechar 0
 AnchorPoint: "DiaToBaseU" 240 0 basechar 0
+AnchorPoint: "DiaToBase3" 250 0 basechar 0
 AnchorPoint: "DiaToBase2" 250 0 basechar 0
 AnchorPoint: "DiaToBase1" 250 0 basechar 0
 LayerCount: 2
@@ -4738,8 +4752,9 @@ SplineSet
  108.799 508.897 60.8389 513.572 -8.14062 519.453 c 1
  11.0068 560.617 39.1221 592.961 75.2031 615.503 c 1
 EndSplineSet
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
 Substitution2: "WideLetters" uniFB24
-Comment: "%DiaToBase1+AD0A-250+AAoA%DiaToBase2+AD0A-250+AAoA%DiaToBaseU+AD0A-240+AAoA%DiaToBaseO+AD0A-60+AAoA" 
+Comment: "%DiaToBase1+AD0A-250+AAoA%DiaToBase2+AD0A-250+AAoA%DiaToBaseU+AD0A-240+AAoA%DiaToBaseO+AD0A-60+AAoA%DiaToBase3+AD0A-250+AAoA" 
 EndChar
 
 StartChar: afii57676
@@ -4750,6 +4765,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 204 46 basechar 0
 AnchorPoint: "DiaToBaseO" -40 0 basechar 0
 AnchorPoint: "DiaToBaseU" 230 0 basechar 0
+AnchorPoint: "DiaToBase3" 250 0 basechar 0
 AnchorPoint: "DiaToBase2" 240 0 basechar 0
 AnchorPoint: "DiaToBase1" 250 0 basechar 0
 LayerCount: 2
@@ -4791,8 +4807,9 @@ SplineSet
  -41.751 628.244 -47.6172 665.488 -57.4033 725.274 c 5
  -40.291 756.637 -10.1855 786.04 25.874 802.702 c 5
 EndSplineSet
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
 Substitution2: "WideLetters" uniFB25
-Comment: "%DiaToBase1+AD0A-250+AAoA%DiaToBase2+AD0A-240+AAoA%DiaToBaseU+AD0A-230+AAoA%DiaToBaseO+AD0A--40+AAoA" 
+Comment: "%DiaToBase1+AD0A-250+AAoA%DiaToBase2+AD0A-240+AAoA%DiaToBaseU+AD0A-230+AAoA%DiaToBaseO+AD0A--40+AAoA%DiaToBase3+AD0A-250+AAoA" 
 EndChar
 
 StartChar: afii57677
@@ -4860,6 +4877,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 404 0 basechar 0
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 330 0 basechar 0
+AnchorPoint: "DiaToBase3" 365 0 basechar 0
 AnchorPoint: "DiaToBase2" 365 0 basechar 0
 AnchorPoint: "DiaToBase1" 350 0 basechar 0
 LayerCount: 2
@@ -4915,7 +4933,7 @@ SplineSet
  121.429 398.9 47.751 489.07 -21.1094 528.273 c 1
  -0.954102 571.398 17.1377 596.881 46.2422 626.284 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-350+AAoA%DiaToBase2+AD0A-365+AAoA%DiaToBaseU+AD0A-330+AAoA%DiaToBaseO+AD0A-30+AAoA" 
+Comment: "%DiaToBase1+AD0A-350+AAoA%DiaToBase2+AD0A-365+AAoA%DiaToBaseU+AD0A-330+AAoA%DiaToBaseO+AD0A-30+AAoA%DiaToBase3+AD0A-365+AAoA" 
 EndChar
 
 StartChar: afii57679
@@ -4954,6 +4972,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 148 0 basechar 0
 AnchorPoint: "DiaToBaseO" 25 0 basechar 0
 AnchorPoint: "DiaToBaseU" 160 0 basechar 0
+AnchorPoint: "DiaToBase3" 175 0 basechar 0
 AnchorPoint: "DiaToBase2" 170 0 basechar 0
 AnchorPoint: "DiaToBase1" 170 0 basechar 0
 LayerCount: 2
@@ -4981,7 +5000,8 @@ SplineSet
  116.688 471.428 54.7793 496.911 -15.1367 520.434 c 1
  -2.97852 564.537 12.126 593.94 36.2246 621.384 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-170+AAoA%DiaToBase2+AD0A-170+AAoA%DiaToBaseU+AD0A-160+AAoA%DiaToBaseO+AD0A-25+AAoA" 
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
+Comment: "%DiaToBase1+AD0A-170+AAoA%DiaToBase2+AD0A-170+AAoA%DiaToBaseU+AD0A-160+AAoA%DiaToBaseO+AD0A-25+AAoA%DiaToBase3+AD0A-175+AAoA" 
 EndChar
 
 StartChar: afii57681
@@ -4992,6 +5012,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 430 -2 basechar 0
 AnchorPoint: "DiaToBaseO" 40 0 basechar 0
 AnchorPoint: "DiaToBaseU" 350 0 basechar 0
+AnchorPoint: "DiaToBase3" 405 0 basechar 0
 AnchorPoint: "DiaToBase2" 380 0 basechar 0
 AnchorPoint: "DiaToBase1" 350 0 basechar 0
 LayerCount: 2
@@ -5033,7 +5054,8 @@ SplineSet
  60.8047 504.262 12.833 512.104 -30.1318 521.903 c 5
  -14.9912 561.107 15.6318 595.411 43.7051 615.993 c 5
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-350+AAoA%DiaToBase2+AD0A-380+AAoA%DiaToBaseU+AD0A-350+AAoA%DiaToBaseO+AD0A-40+AAoA" 
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
+Comment: "%DiaToBase1+AD0A-350+AAoA%DiaToBase2+AD0A-380+AAoA%DiaToBaseU+AD0A-350+AAoA%DiaToBaseO+AD0A-40+AAoA%DiaToBase3+AD0A-405+AAoA" 
 EndChar
 
 StartChar: afii57682
@@ -5131,6 +5153,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 356 -24 basechar 0
 AnchorPoint: "DiaToBaseO" 120 0 basechar 0
 AnchorPoint: "DiaToBaseU" 275 0 basechar 0
+AnchorPoint: "DiaToBase3" 290 0 basechar 0
 AnchorPoint: "DiaToBase2" 290 0 basechar 0
 AnchorPoint: "DiaToBase1" 290 0 basechar 0
 LayerCount: 2
@@ -5168,7 +5191,7 @@ SplineSet
  77.9297 259.727 23.0244 330.348 20.4385 401.841 c 0
  17.709 477.309 98.0947 585.12 151.207 616.482 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-290+AAoA%DiaToBase2+AD0A-290+AAoA%DiaToBaseU+AD0A-275+AAoA%DiaToBaseO+AD0A-120+AAoA" 
+Comment: "%DiaToBase1+AD0A-290+AAoA%DiaToBase2+AD0A-290+AAoA%DiaToBaseU+AD0A-275+AAoA%DiaToBaseO+AD0A-120+AAoA%DiaToBase3+AD0A-290+AAoA" 
 EndChar
 
 StartChar: afii57685
@@ -5213,6 +5236,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 234 -76 basechar 0
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 240 0 basechar 0
+AnchorPoint: "DiaToBase3" 290 0 basechar 0
 AnchorPoint: "DiaToBase2" 280 0 basechar 0
 AnchorPoint: "DiaToBase1" 280 0 basechar 0
 LayerCount: 2
@@ -5250,7 +5274,8 @@ SplineSet
  39.8672 431.724 -9.22754 485.023 -16.1768 509.161 c 1
  -7.02344 552.285 20.1494 600.311 55.2422 626.284 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-280+AAoA%DiaToBase2+AD0A-280+AAoA%DiaToBaseU+AD0A-240+AAoA%DiaToBaseO+AD0A-30+AAoA" 
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
+Comment: "%DiaToBase1+AD0A-280+AAoA%DiaToBase2+AD0A-280+AAoA%DiaToBaseU+AD0A-240+AAoA%DiaToBaseO+AD0A-30+AAoA%DiaToBase3+AD0A-290+AAoA" 
 EndChar
 
 StartChar: afii57687
@@ -5261,6 +5286,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 402 0 basechar 0
 AnchorPoint: "DiaToBaseO" 20 0 basechar 0
 AnchorPoint: "DiaToBaseU" 525 0 basechar 0
+AnchorPoint: "DiaToBase3" 535 0 basechar 0
 AnchorPoint: "DiaToBase2" 480 0 basechar 0
 AnchorPoint: "DiaToBase1" 420 0 basechar 0
 LayerCount: 2
@@ -5302,7 +5328,8 @@ SplineSet
  19.4609 500.831 -13.0215 505.731 -50 511.612 c 1
  -31.8594 550.816 -6.74121 584.14 28.3584 611.582 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-420+AAoA%DiaToBase2+AD0A-480+AAoA%DiaToBaseU+AD0A-525+AAoA%DiaToBaseO+AD0A-20+AAoA" 
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
+Comment: "%DiaToBase1+AD0A-420+AAoA%DiaToBase2+AD0A-480+AAoA%DiaToBaseU+AD0A-525+AAoA%DiaToBaseO+AD0A-20+AAoA%DiaToBase3+AD0A-535+AAoA" 
 EndChar
 
 StartChar: afii57688
@@ -5313,6 +5340,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 258 0 basechar 0
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 310 0 basechar 0
+AnchorPoint: "DiaToBase3" 340 0 basechar 0
 AnchorPoint: "DiaToBase2" 380 0 basechar 0
 AnchorPoint: "DiaToBase1" 400 0 basechar 0
 LayerCount: 2
@@ -5338,8 +5366,9 @@ SplineSet
  207.823 484.8 61.2949 501.321 -31.6523 516.021 c 5
  -11.9844 563.067 12.1055 588.06 45.2051 615.993 c 5
 EndSplineSet
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
 Substitution2: "WideLetters" uniFB27
-Comment: "%DiaToBase1+AD0A-400+AAoA%DiaToBase2+AD0A-380+AAoA%DiaToBaseU+AD0A-310+AAoA%DiaToBaseO+AD0A-30+AAoA" 
+Comment: "%DiaToBase1+AD0A-400+AAoA%DiaToBase2+AD0A-380+AAoA%DiaToBaseU+AD0A-310+AAoA%DiaToBaseO+AD0A-30+AAoA%DiaToBase3+AD0A-340+AAoA" 
 EndChar
 
 StartChar: afii57689
@@ -5350,6 +5379,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 490 -14 basechar 0
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 350 0 basechar 0
+AnchorPoint: "DiaToBase3" 390 0 basechar 0
 AnchorPoint: "DiaToBase2" 360 0 basechar 0
 AnchorPoint: "DiaToBase1" 330 0 basechar 0
 LayerCount: 2
@@ -5397,7 +5427,8 @@ SplineSet
  34.5918 445.461 5.72363 481.229 -26.1582 514.553 c 1
  -7.49414 560.127 18.1318 595.411 57.2422 626.284 c 1
 EndSplineSet
-Comment: "%DiaToBase1+AD0A-330+AAoA%DiaToBase2+AD0A-360+AAoA%DiaToBaseU+AD0A-350+AAoA%DiaToBaseO+AD0A-30+AAoA" 
+Kerns2: 97 0 "'kern' Horizontal Kerning lookup 6 subtable" 
+Comment: "%DiaToBase1+AD0A-330+AAoA%DiaToBase2+AD0A-360+AAoA%DiaToBaseU+AD0A-350+AAoA%DiaToBaseO+AD0A-30+AAoA%DiaToBase3+AD0A-390+AAoA" 
 EndChar
 
 StartChar: afii57690
@@ -5408,6 +5439,7 @@ Flags: HMW
 AnchorPoint: "DiaToBaseD" 448 -26 basechar 0
 AnchorPoint: "DiaToBaseO" 60 0 basechar 0
 AnchorPoint: "DiaToBaseU" 370 0 basechar 0
+AnchorPoint: "DiaToBase3" 360 0 basechar 0
 AnchorPoint: "DiaToBase2" 360 0 basechar 0
 AnchorPoint: "DiaToBase1" 375 0 basechar 0
 LayerCount: 2
@@ -5448,7 +5480,7 @@ SplineSet
  22.5352 568.458 50.1299 594.921 98.2246 621.384 c 1
 EndSplineSet
 Substitution2: "WideLetters" uniFB28
-Comment: "%DiaToBase1+AD0A-375+AAoA%DiaToBase2+AD0A-360+AAoA%DiaToBaseU+AD0A-370+AAoA%DiaToBaseO+AD0A-60+AAoA" 
+Comment: "%DiaToBase1+AD0A-375+AAoA%DiaToBase2+AD0A-360+AAoA%DiaToBaseU+AD0A-370+AAoA%DiaToBaseO+AD0A-60+AAoA%DiaToBase3+AD0A-360+AAoA" 
 EndChar
 
 StartChar: afii57716
@@ -5830,6 +5862,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 350 0 basechar 0
+AnchorPoint: "DiaToBase3" 390 0 basechar 0
 AnchorPoint: "DiaToBase2" 360 0 basechar 0
 AnchorPoint: "DiaToBase1" 330 0 basechar 0
 LayerCount: 2
@@ -5847,6 +5880,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 350 0 basechar 0
+AnchorPoint: "DiaToBase3" 390 0 basechar 0
 AnchorPoint: "DiaToBase2" 360 0 basechar 0
 AnchorPoint: "DiaToBase1" 330 0 basechar 0
 LayerCount: 2
@@ -5864,6 +5898,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 350 0 basechar 0
+AnchorPoint: "DiaToBase3" 390 0 basechar 0
 AnchorPoint: "DiaToBase2" 360 0 basechar 0
 AnchorPoint: "DiaToBase1" 330 0 basechar 0
 LayerCount: 2
@@ -5884,6 +5919,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 350 0 basechar 0
+AnchorPoint: "DiaToBase3" 390 0 basechar 0
 AnchorPoint: "DiaToBase2" 360 0 basechar 0
 AnchorPoint: "DiaToBase1" 330 0 basechar 0
 LayerCount: 2
@@ -5948,6 +5984,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 80 0 basechar 0
 AnchorPoint: "DiaToBaseU" 260 0 basechar 0
+AnchorPoint: "DiaToBase3" 290 0 basechar 0
 AnchorPoint: "DiaToBase2" 285 0 basechar 0
 AnchorPoint: "DiaToBase1" 280 0 basechar 0
 LayerCount: 2
@@ -5965,6 +6002,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 60 0 basechar 0
 AnchorPoint: "DiaToBaseU" 170 0 basechar 0
+AnchorPoint: "DiaToBase3" 185 0 basechar 0
 AnchorPoint: "DiaToBase2" 180 0 basechar 0
 AnchorPoint: "DiaToBase1" 185 0 basechar 0
 LayerCount: 2
@@ -5982,6 +6020,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 10 0 basechar 0
 AnchorPoint: "DiaToBaseU" 280 0 basechar 0
+AnchorPoint: "DiaToBase3" 310 0 basechar 0
 AnchorPoint: "DiaToBase2" 320 0 basechar 0
 AnchorPoint: "DiaToBase1" 360 0 basechar 0
 LayerCount: 2
@@ -6017,6 +6056,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 180 0 basechar 0
+AnchorPoint: "DiaToBase3" 190 0 basechar 0
 AnchorPoint: "DiaToBase2" 190 0 basechar 0
 AnchorPoint: "DiaToBase1" 210 0 basechar 0
 LayerCount: 2
@@ -6034,6 +6074,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 180 0 basechar 0
+AnchorPoint: "DiaToBase3" 200 0 basechar 0
 AnchorPoint: "DiaToBase2" 185 0 basechar 0
 AnchorPoint: "DiaToBase1" 200 0 basechar 0
 LayerCount: 2
@@ -6051,6 +6092,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 20 0 basechar 0
 AnchorPoint: "DiaToBaseU" 320 0 basechar 0
+AnchorPoint: "DiaToBase3" 365 0 basechar 0
 AnchorPoint: "DiaToBase2" 350 0 basechar 0
 AnchorPoint: "DiaToBase1" 330 0 basechar 0
 LayerCount: 2
@@ -6068,6 +6110,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 10 0 basechar 0
 AnchorPoint: "DiaToBaseU" 150 0 basechar 0
+AnchorPoint: "DiaToBase3" 170 0 basechar 0
 AnchorPoint: "DiaToBase2" 170 0 basechar 0
 AnchorPoint: "DiaToBase1" 180 0 basechar 0
 LayerCount: 2
@@ -6101,6 +6144,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 60 0 basechar 0
 AnchorPoint: "DiaToBaseU" 240 0 basechar 0
+AnchorPoint: "DiaToBase3" 250 0 basechar 0
 AnchorPoint: "DiaToBase2" 250 0 basechar 0
 AnchorPoint: "DiaToBase1" 250 0 basechar 0
 LayerCount: 2
@@ -6118,6 +6162,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" -40 0 basechar 0
 AnchorPoint: "DiaToBaseU" 230 0 basechar 0
+AnchorPoint: "DiaToBase3" 250 0 basechar 0
 AnchorPoint: "DiaToBase2" 240 0 basechar 0
 AnchorPoint: "DiaToBase1" 250 0 basechar 0
 LayerCount: 2
@@ -6135,6 +6180,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 330 0 basechar 0
+AnchorPoint: "DiaToBase3" 365 0 basechar 0
 AnchorPoint: "DiaToBase2" 365 0 basechar 0
 AnchorPoint: "DiaToBase1" 350 0 basechar 0
 LayerCount: 2
@@ -6152,6 +6198,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 25 0 basechar 0
 AnchorPoint: "DiaToBaseU" 160 0 basechar 0
+AnchorPoint: "DiaToBase3" 175 0 basechar 0
 AnchorPoint: "DiaToBase2" 170 0 basechar 0
 AnchorPoint: "DiaToBase1" 170 0 basechar 0
 LayerCount: 2
@@ -6169,6 +6216,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 40 0 basechar 0
 AnchorPoint: "DiaToBaseU" 350 0 basechar 0
+AnchorPoint: "DiaToBase3" 405 0 basechar 0
 AnchorPoint: "DiaToBase2" 380 0 basechar 0
 AnchorPoint: "DiaToBase1" 350 0 basechar 0
 LayerCount: 2
@@ -6199,6 +6247,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 120 0 basechar 0
 AnchorPoint: "DiaToBaseU" 275 0 basechar 0
+AnchorPoint: "DiaToBase3" 290 0 basechar 0
 AnchorPoint: "DiaToBase2" 290 0 basechar 0
 AnchorPoint: "DiaToBase1" 290 0 basechar 0
 LayerCount: 2
@@ -6216,6 +6265,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 240 0 basechar 0
+AnchorPoint: "DiaToBase3" 290 0 basechar 0
 AnchorPoint: "DiaToBase2" 280 0 basechar 0
 AnchorPoint: "DiaToBase1" 280 0 basechar 0
 LayerCount: 2
@@ -6233,6 +6283,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 20 0 basechar 0
 AnchorPoint: "DiaToBaseU" 525 0 basechar 0
+AnchorPoint: "DiaToBase3" 535 0 basechar 0
 AnchorPoint: "DiaToBase2" 480 0 basechar 0
 AnchorPoint: "DiaToBase1" 420 0 basechar 0
 LayerCount: 2
@@ -6250,6 +6301,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 310 0 basechar 0
+AnchorPoint: "DiaToBase3" 340 0 basechar 0
 AnchorPoint: "DiaToBase2" 380 0 basechar 0
 AnchorPoint: "DiaToBase1" 400 0 basechar 0
 LayerCount: 2
@@ -6267,6 +6319,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 30 0 basechar 0
 AnchorPoint: "DiaToBaseU" 350 0 basechar 0
+AnchorPoint: "DiaToBase3" 390 0 basechar 0
 AnchorPoint: "DiaToBase2" 360 0 basechar 0
 AnchorPoint: "DiaToBase1" 330 0 basechar 0
 LayerCount: 2
@@ -6284,6 +6337,7 @@ VWidth: 1000
 Flags: HMW
 AnchorPoint: "DiaToBaseO" 60 0 basechar 0
 AnchorPoint: "DiaToBaseU" 370 0 basechar 0
+AnchorPoint: "DiaToBase3" 360 0 basechar 0
 AnchorPoint: "DiaToBase2" 360 0 basechar 0
 AnchorPoint: "DiaToBase1" 375 0 basechar 0
 LayerCount: 2
@@ -6394,7 +6448,7 @@ StartChar: space
 Encoding: 32 32 193
 Width: 451
 VWidth: 1000
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 

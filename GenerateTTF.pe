@@ -1,0 +1,24 @@
+#!/usr/bin/fontforge
+
+/* This script for PfaEdit was created by Maxim Iorsh in 2008. It is public
+domain. You can use it in any way and for any purpose.
+
+This script generates .TTF file
+
+This script was developed and tested with build 20071110.
+*/
+
+if ($argc < 3)
+	Error("Exiting - not enough arguments");
+endif
+
+fontFile = $1;
+outputDir = $2;
+
+// Try to open the font. A failure may occur due to incorrect font
+// format or missing file. Such failure will cause the script to abort.
+Open(fontFile);
+
+// Now perform the export to TTF
+
+Generate(outputDir + "/" + $fontname + ".ttf");

@@ -46,7 +46,8 @@ family and are copyright 1999 by (URW)++ Design & Development. All
 rights reserved.
 
 Miriam Mono font family (Hebrew glyphs) is copyright 2002-2004 by Maxim
-Iorsh (iorsh@math.technion.ac.il).  Latin glyphs, digits and punctuation
-contained in the Nachlieli font family are part of Nimbus Mono L font
-family and are copyright 1999 by (URW)++ Design & Development. All
-rights reserved.
+Iorsh (iorsh@math.technion.ac.il). Hebrew vowel marks positioning algorithms
+implementation by Yoram Gnat (yoramg@shenkar.ac.il), 2010. 
+Latin glyphs, digits and punctuation contained in the Miriam Mono font
+family are part of Nimbus Mono L font family and are copyright 1999 by
+(URW)++ Design & Development. All rights reserved.

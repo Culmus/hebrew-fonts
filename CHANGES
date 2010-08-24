@@ -1,6 +1,16 @@
 Culmus Hebrew fonts
 ==============
 
+23-Aug-2010: version 0.105
+-------------------------
+Miriam Mono font family is enhanced and re-released in TrueType format.
+
+Changes:
+ 1. Introduced diacritics placement into Miriam Mono font, meteg supported.
+ 2. Supported "Hataf" diacritics with all letters in Miriam, David.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 19-Jan-2010: Version 0.104
 -------------------------
 Miriam font family is enhanced and re-released in TrueType format.
@@ -9,6 +19,8 @@ Changes:
  1. Fixed TZVEY YUDN MIT A PASEKH in David.
  2. Miriam font released in TrueType format.
  3. Miriam font enhanced to support diacritics, more symbols.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 27-Feb-2009: Version 0.103
 -------------------------
@@ -19,6 +31,8 @@ Changes:
  2. Fixed bad "dagesh" placement in some circumstances.
  3. Added "qamats qatan" and a few other diacritics.
  4. "Vav with holam haser" distinguished from "holam male".
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 17-Jul-2008: Version 0.102
 -------------------------
@@ -31,6 +45,8 @@ Changes:
  3. Diacritics placement supported in OpenType-enabled software.
  4. Several new currency symbols and punctuation marks added.
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 19-Dec-2004: Version 0.101
 -------------------------
 This is a bugfix release aimed at the infamous "tet" bug in Nachlieli. It 
@@ -41,6 +57,8 @@ Changes:
  Miriam Mono CLM Bold Oblique, Nachlieli CLM Light, Nachlieli CLM Light 
  Oblique. More information is available at 
  http://qa.mandrakesoft.com/show_bug.cgi?id=11502
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 12-Jun-2004: Version 0.100
 ------------------------- 
@@ -61,6 +79,8 @@ Changes:
  8. A new menorah symbol added to Caladings.
  9. Cantillation marks and extended punctuation added to Nachlieli.
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 28-Jan-2004: Version 0.93 
 ------------------------- 
 This is a minor release that focuses primarily on improving the on-screen 
@@ -73,6 +93,8 @@ Changes:
  4. Missing "ayin" in Drugulin Bold was fixed.
  5. ".notdef" character added to all the above fonts, to improve compliance 
     with standards.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 15-Aug-2003: Version 0.90
 -------------------------

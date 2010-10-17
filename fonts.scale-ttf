@@ -1,4 +1,4 @@
-10
+20
 DavidCLM-Medium.ttf -culmus-David-medium-r-normal--0-0-0-0-p-0-iso10646-1
 DavidCLM-MediumItalic.ttf -culmus-David-medium-i-normal--0-0-0-0-p-0-iso10646-1
 DavidCLM-Bold.ttf -culmus-David-bold-r-normal--0-0-0-0-p-0-iso10646-1
@@ -9,3 +9,13 @@ MiriamMonoCLM-Book.ttf -culmus-Miriam Mono-medium-r-normal--0-0-0-0-m-0-iso10646
 MiriamMonoCLM-BookOblique.ttf -culmus-Miriam Mono-medium-o-normal--0-0-0-0-m-0-iso10646-1
 MiriamMonoCLM-Bold.ttf -culmus-Miriam Mono-bold-r-normal--0-0-0-0-m-0-iso10646-1
 MiriamMonoCLM-BoldOblique.ttf -culmus-Miriam Mono-bold-o-normal--0-0-0-0-m-0-iso10646-1
+HadasimCLM-Bold.ttf -culmus-Hadasim-bold-r-expanded--0-0-0-0-p-0-iso10646-1
+HadasimCLM-BoldOblique.ttf -culmus-Hadasim-bold-o-expanded--0-0-0-0-p-0-iso10646-1
+HadasimCLM-Regular.ttf -culmus-Hadasim-medium-r-normal--0-0-0-0-p-0-iso10646-1
+HadasimCLM-RegularOblique.ttf -culmus-Hadasim-medium-o-normal--0-0-0-0-p-0-iso10646-1
+SimpleCLM-Bold.ttf -culmus-Simple-bold-r-expanded--0-0-0-0-p-0-iso10646-1
+SimpleCLM-BoldOblique.ttf -culmus-Simple-bold-o-expanded--0-0-0-0-p-0-iso10646-1
+SimpleCLM-Medium.ttf -culmus-Simple-medium-r-normal--0-0-0-0-p-0-iso10646-1
+SimpleCLM-MediumOblique.ttf -culmus-Simple-medium-o-normal--0-0-0-0-p-0-iso10646-1
+StamAshkenazCLM.ttf -culmus-Stam Ashkenaz clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+StamSefaradCLM.ttf -culmus-Stam Sefarad clm-medium-r-normal--0-0-0-0-p-0-iso10646-1

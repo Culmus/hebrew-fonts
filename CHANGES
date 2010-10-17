@@ -1,6 +1,19 @@
 Culmus Hebrew fonts
 ==============
 
+14-Oct-2010: version 0.110
+-------------------------
+Four new TrueType fonts added, by Yoram Gnat.
+
+Changes:
+ 1. Hadasim CLM - complete family with diacritics supported. Inspired by
+    Henri Friedlander's Hadassah font.
+ 2. Simple CLM - complete sans-serif family with diacritics supported.
+ 3. Stam Ashkenaz CLM and Stam Sefarad CLM - each in single weight, modeled
+    after the respective Torah scroll writing traditions.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 23-Aug-2010: version 0.105
 -------------------------
 Miriam Mono font family is enhanced and re-released in TrueType format.

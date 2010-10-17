@@ -1,6 +1,6 @@
 Summary:	Free Hebrew scalable fonts
 Name:		culmus-fonts
-Version:	0.105
+Version:	0.110
 Release:	1
 Vendor:		Culmus Project
 
@@ -38,12 +38,12 @@ BuildArch:	noarch
 # Prereq:		chkfontpath
 
 %description
-This version enhances and adds OpenType diacritics support to Miriam Mono.
+Four new TrueType fonts added, by Yoram Gnat.
 
-9 Hebrew font families. ASCII glyphs partially borrowed from
-the URW and Bitstream fonts.  Those families provide a basic set of a
-serif (Frank Ruehl), sans serif (Nachlieli) and monospaced (Miriam Mono)
-fonts. Also included Miriam, Drugulin, Aharoni, David, Yehuda and Ellinia.
+13 Hebrew font families. Contain ASCII glyphs from various sources.
+Those families provide a basic set of a serif (Frank Ruehl), sans serif
+(Nachlieli) and monospaced (Miriam Mono) fonts. Also included Miriam,
+Drugulin, Aharoni, David, Hadasim etc.
 
 Install the culmus-fonts package if you need a set of Hebrew fonts.
 

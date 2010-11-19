@@ -5,7 +5,7 @@ FamilyName: David CLM
 Weight: Bold
 Copyright: Copyright 2002-2010 by Maxim Iorsh (iorsh@users.sourceforge.net).\nDistributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html). \nLatin glyphs and part of punctuation copyright 1990 as an unpublished work by Bitstream Inc. \nAll rights reserved.
 UComments: "2002-9-22: Created." 
-Version: 0.105
+Version: 0.120
 ItalicAngle: 10
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1163025784
-ModificationTime: 1282507012
+ModificationTime: 1289933757
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -74,6 +74,7 @@ Lookup: 260 1 0 "DiaToBase1"  {"DiaToBase1"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 258 1 0 "_Diakern"  {"_Diakern"  } ['kern' ('hebr' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 5"  {"'kern' Horizontal Kerning in Latin lookup 5 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 6"  {"'kern' Horizontal Kerning lookup 6 subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "ccmpVavHolam subtable"  0 0 0 1
  2 1 0
@@ -122,7 +123,7 @@ Grid
  904 600 l 25
 EndSplineSet
 AnchorClass2: "DiaToBaseD"  "DiaToBaseD" "DiaToBaseO"  "DiaToBaseO" "DiaToBaseU"  "DiaToBaseU" "DiaToBase3"  "DiaToBase3" "DiaToBase2"  "DiaToBase2" "DiaToBase1"  "DiaToBase1" 
-BeginChars: 65537 212
+BeginChars: 65537 214
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -490,16 +491,11 @@ Flags: HMW
 LayerCount: 2
 Back
 SplineSet
-60 800 m 1
- 136.646 677.854 172.398 547.242 176.435 398.323 c 1
- 154.369 364.116 122.865 336.758 89.1562 318.627 c 1
- 63.1416 434.335 15.9082 559.929 -54.9092 645.427 c 1
- -33.793 709.941 9.34375 760.264 60 800 c 1
-245.437 768.136 m 5
- 250.741 624.031 216.397 493.042 145.434 362.056 c 5
- 109.221 343.465 68.2588 335.523 30 336.676 c 5
- 65.3252 449.89 87.2168 582.273 68.6357 691.726 c 5
- 119.18 737.039 181.699 759.051 245.437 768.136 c 5
+90.0049 796.476 m 5
+ 144.276 662.876 156.804 528.04 134.92 380.683 c 5
+ 107.249 350.827 71.4736 329.355 35.1279 317.354 c 5
+ 29.6016 435.82 4.89453 567.709 -50 664.205 c 5
+ -18.002 724.072 33.2178 766.14 90.0049 796.476 c 5
 EndSplineSet
 Fore
 SplineSet
@@ -5530,22 +5526,25 @@ EndChar
 
 StartChar: uni05F3
 Encoding: 1523 1523 144
-Width: 245
+Width: 257
 VWidth: 1000
 Flags: HMW
 LayerCount: 2
-Fore
+Back
+Refer: 6 39 S 1 0 0 1 12 -70 2
 Refer: 6 39 N 1 0 0 1 0 0 2
+Fore
+Refer: 6 39 S 1 0 0 1 6 -35 2
 EndChar
 
 StartChar: uni05F4
 Encoding: 1524 1524 145
-Width: 492
+Width: 504
 VWidth: 1000
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1 34 N 1 0 0 1 0 0 2
+Refer: 1 34 S 1 0 0 1 6 -35 2
 EndChar
 
 StartChar: afii61664
@@ -6971,6 +6970,26 @@ Fore
 Refer: 98 1460 N 1 0 0 1 175 187.5 2
 Refer: 123 1497 N 1 0 0 1 0 0 2
 Ligature2: "Yiddish" afii57673 afii57793
+EndChar
+
+StartChar: quotedblleft
+Encoding: 8220 8220 212
+Width: 492
+VWidth: 1000
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1 34 S -1 0 0 -1 342.699 1113.83 2
+EndChar
+
+StartChar: quoteleft
+Encoding: 8216 8216 213
+Width: 245
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 6 39 N -1 0 0 -1 95.1331 1113.83 2
 EndChar
 EndChars
 EndSplineFont

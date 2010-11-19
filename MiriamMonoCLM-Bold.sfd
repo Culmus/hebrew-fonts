@@ -3,8 +3,8 @@ FontName: MiriamMonoCLM-Bold
 FullName: Miriam Mono CLM Bold
 FamilyName: Miriam Mono CLM
 Weight: Bold
-Copyright: Copyright .51 2002-2004 by Maxim Iorsh (iorsh@math.technion.ac.il). Distributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html).\n\nHebrew vowel marks positioning algorithms implementation by Yoram Gnat 2010. (yoramg@shenkar.ac.il). \n \nLatin glyphs, digits and punctuation Copyright (URW)++,Copyright 1999 by (URW)++ Design & Development.\nAll rights reserved.
-Version: 0.105
+Copyright: Copyright 2002-2010 by Maxim Iorsh (iorsh@math.technion.ac.il). Distributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html).\n\nHebrew vowel marks positioning algorithms implementation by Yoram Gnat 2010. (yoramg@shenkar.ac.il). \n \nLatin glyphs, digits and punctuation Copyright (URW)++,Copyright 1999 by (URW)++ Design & Development.\nAll rights reserved.
+Version: 0.120
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1235598109
-ModificationTime: 1281804794
+ModificationTime: 1289934435
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -148,13 +148,12 @@ EndFPST
 LangName: 1033 
 GaspTable: 3 8 0 16 1 65535 3
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 31 9
+WinInfo: 8153 31 9
 BeginPrivate: 5
 BlueValues 40 [-16 0 437 450 583 597 624 624 638 638 ]
 OtherBlues 12 [-186 -186 ]
@@ -163,7 +162,7 @@ StemSnapH 5 [41 ]
 BlueShift 2 21
 EndPrivate
 AnchorClass2: "D"  "'mark' Dagesh for Holam Haser" "H"  "'mark' Hatafim" "W"  "'mark' Wide" "Q"  "'mark' Qubuts" "N"  "'mark' Narrow" "J1"  "Hiriq after Patah in Jerusalem Anchor-1" "M1"  "Meteg Repositioning Anchor" "VR"  "Vowel Repositioning Anchor" "M2V"  "Meteg to Vowel Positioning" "Holam_Haser_on Vav"  "'mark' Holam Haser on Vav" "Holam"  "'mark' Holam" 
-BeginChars: 65538 254
+BeginChars: 65538 256
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -6315,49 +6314,84 @@ EndChar
 StartChar: quoteright
 Encoding: 8217 8217 186
 Width: 600
-Flags: W
-HStem: 312 290<272.604 329.717>
-VStem: 270 63<313.094 399.5>
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 8 39 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+219 623 m 1
+ 351 623 l 1
+ 210 355 l 2
+ 202 339 190 331 178 331 c 0
+ 161 331 147 344 147 359 c 0
+ 147 365 147 367 150 378 c 2
+ 219 623 l 1
+EndSplineSet
 EndChar
 
 StartChar: quotesinglbase
 Encoding: 8218 8218 187
 Width: 600
-Flags: W
-HStem: -150 290<272.604 329.717>
-VStem: 270 63<-148.906 -62.5>
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 8 39 N 1 0 0 1 0 -462 2
-Validated: 1
+SplineSet
+219 134 m 1
+ 351 134 l 1
+ 210 -134 l 2
+ 202 -150 190 -158 178 -158 c 0
+ 161 -158 147 -145 147 -130 c 0
+ 147 -124 147 -122 150 -111 c 2
+ 219 134 l 1
+EndSplineSet
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 188
 Width: 600
 Flags: W
-HStem: 312 290<172.604 229.717 372.604 429.717>
-VStem: 170 63<313.094 399.5> 370 63<313.094 399.5>
+HStem: 582 20<159 291 291 291 359 491 491 491>
 LayerCount: 2
 Fore
-Refer: 3 34 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+159 602 m 1
+ 291 602 l 1
+ 150 372 l 2
+ 139 354 131 348 118 348 c 0
+ 102 348 87 361 87 376 c 0
+ 87 381 88 389 90 395 c 2
+ 159 602 l 1
+359 602 m 1
+ 491 602 l 1
+ 350 372 l 2
+ 339 354 331 348 318 348 c 0
+ 302 348 287 361 287 376 c 0
+ 287 381 288 389 290 395 c 2
+ 359 602 l 1
+EndSplineSet
 EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 189
 Width: 600
-Flags: W
-HStem: -150 290<172.604 229.717 372.604 429.717>
-VStem: 170 63<-148.906 -62.5> 370 63<-148.906 -62.5>
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 3 34 N 1 0 0 1 0 -462 2
-Validated: 1
+SplineSet
+159 134 m 1
+ 291 134 l 1
+ 150 -96 l 2
+ 139 -114 131 -120 118 -120 c 0
+ 102 -120 87 -107 87 -92 c 0
+ 87 -87 88 -79 90 -73 c 2
+ 159 134 l 1
+359 134 m 1
+ 491 134 l 1
+ 350 -96 l 2
+ 339 -114 331 -120 318 -120 c 0
+ 302 -120 287 -107 287 -92 c 0
+ 287 -87 288 -79 290 -73 c 2
+ 359 134 l 1
+EndSplineSet
 EndChar
 
 StartChar: afii57636
@@ -7883,6 +7917,49 @@ Flags: W
 LayerCount: 2
 MultipleSubs2: "Special Decomposition Table" afii57673 afii57793
 Ligature2: "'ccmp' Yod Hiriq in Hebrew Script" afii57673 afii57793
+EndChar
+
+StartChar: quoteleft
+Encoding: 8216 8216 254
+Width: 600
+Flags: W
+HStem: 582 20<249 381 381 381>
+LayerCount: 2
+Fore
+SplineSet
+381 602 m 1
+ 450 395 l 2
+ 451 390 453 381 453 376 c 0
+ 453 361 438 348 422 348 c 0
+ 409 348 401 354 390 372 c 2
+ 249 602 l 1
+ 381 602 l 1
+EndSplineSet
+EndChar
+
+StartChar: quotedblleft
+Encoding: 8220 8220 255
+Width: 600
+Flags: W
+HStem: 582 20<98 230 230 230 298 430 430 430>
+LayerCount: 2
+Fore
+SplineSet
+430 602 m 1
+ 499 395 l 2
+ 500 390 502 381 502 376 c 0
+ 502 361 487 348 471 348 c 0
+ 458 348 450 354 439 372 c 2
+ 298 602 l 1
+ 430 602 l 1
+230 602 m 1
+ 299 395 l 2
+ 300 390 302 381 302 376 c 0
+ 302 361 287 348 271 348 c 0
+ 258 348 250 354 239 372 c 2
+ 98 602 l 1
+ 230 602 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

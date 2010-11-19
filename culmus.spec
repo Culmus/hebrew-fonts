@@ -1,6 +1,6 @@
 Summary:	Free Hebrew scalable fonts
 Name:		culmus-fonts
-Version:	0.110
+Version:	0.120
 Release:	1
 Vendor:		Culmus Project
 
@@ -24,11 +24,11 @@ Epoch:		1
 %define     type1_fonts_dir  %{_datadir}/fonts/he/Type1
 %define     ttf_fonts_dir  %{_datadir}/fonts/he/TrueType
 %define     doc_dir  %{_datadir}/doc/culmus-%{version}
-%define     fcconf_dir  %{_sysconfdir}/fonts
+%define     fcconfig_dir /etc/fonts/conf.d
 
-Source0:	http://belnet.dl.sourceforge.net/sourceforge/culmus/culmus-%{version}.tar.gz
+Source0:	http://downloads.sourceforge.net/sourceforge/culmus/culmus-%{version}.tar.gz
 
-License:	GPL
+License:	GPLv2
 Group:		System/Fonts
 URL:		http://culmus.sourceforge.net/
 BuildRoot:	%_tmppath/%name-%version-%release-root
@@ -38,12 +38,13 @@ BuildArch:	noarch
 # Prereq:		chkfontpath
 
 %description
-Four new TrueType fonts added, by Yoram Gnat.
+A new TrueType font family Keter YG added, by Yoram Gnat.
 
-13 Hebrew font families. Contain ASCII glyphs from various sources.
+14 Hebrew font families. Contain ASCII glyphs from various sources.
 Those families provide a basic set of a serif (Frank Ruehl), sans serif
 (Nachlieli) and monospaced (Miriam Mono) fonts. Also included Miriam,
-Drugulin, Aharoni, David, Hadasim etc.
+Drugulin, Aharoni, David, Hadasim etc. Cantillation marks support is available
+in Keter YG.
 
 Install the culmus-fonts package if you need a set of Hebrew fonts.
 
@@ -51,21 +52,21 @@ Install the culmus-fonts package if you need a set of Hebrew fonts.
 %setup -n culmus-%{version}
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%{type1_fonts_dir}
-mkdir -p $RPM_BUILD_ROOT%{ttf_fonts_dir}
-mkdir -p $RPM_BUILD_ROOT%{fcconf_dir}
-mkdir -p $RPM_BUILD_ROOT/tmp
-#cd fonts
 /usr/X11R6/bin/xftcache . || touch XftCache
-cp -f *.afm *.pfa $RPM_BUILD_ROOT%{type1_fonts_dir}
-cp -f *.ttf $RPM_BUILD_ROOT%{ttf_fonts_dir}
-install -m 644 fonts.scale-type1 $RPM_BUILD_ROOT%{type1_fonts_dir}/fonts.scale
-install -m 644 fonts.scale-ttf $RPM_BUILD_ROOT%{ttf_fonts_dir}/fonts.scale
-install -m 644 local.conf $RPM_BUILD_ROOT%{type1_fonts_dir}/
-install -m 644 XftCache $RPM_BUILD_ROOT%{type1_fonts_dir}/
-install -m 644 XftCache $RPM_BUILD_ROOT%{ttf_fonts_dir}/
-install -m 644 culmus.conf $RPM_BUILD_ROOT%{fcconf_dir}/
+
+rm -rf $RPM_BUILD_ROOT
+
+install -m 0755 -d $RPM_BUILD_ROOT%{type1_fonts_dir}
+install -m 0755 -d $RPM_BUILD_ROOT%{ttf_fonts_dir}
+install -m 0755 -d $RPM_BUILD_ROOT%{fcconfig_dir}
+install -m 0644 -p *.afm $RPM_BUILD_ROOT%{type1_fonts_dir}
+install -m 0644 -p *.pfa $RPM_BUILD_ROOT%{type1_fonts_dir}
+install -m 0644 -p *.ttf $RPM_BUILD_ROOT%{ttf_fonts_dir}
+install -m 0644 fonts.scale-type1 $RPM_BUILD_ROOT%{type1_fonts_dir}/fonts.scale
+install -m 0644 fonts.scale-ttf $RPM_BUILD_ROOT%{ttf_fonts_dir}/fonts.scale
+install -m 0644 XftCache $RPM_BUILD_ROOT%{type1_fonts_dir}/
+install -m 0644 XftCache $RPM_BUILD_ROOT%{ttf_fonts_dir}/
+install -m 0644 culmus.conf $RPM_BUILD_ROOT%{fcconfig_dir}/39-culmus.conf
 
 mkfontdir $RPM_BUILD_ROOT%{type1_fonts_dir}
 mkfontdir $RPM_BUILD_ROOT%{ttf_fonts_dir}
@@ -79,15 +80,6 @@ fi
 # avoid making fc-cache a requirement
 if which fc-cache >&/dev/null; then
   fc-cache
-fi
-# install /etc/fonts/local.conf, if it doesn't exist
-# for example, in Red Hat.
-if ! [ -f %{fcconf_dir}/local.conf ]; then
-	cp %{type1_fonts_dir}/local.conf %{fcconf_dir}/
-fi
-# add culmus.conf include entry to local.conf
-if !(grep -q -e culmus.conf %{fcconf_dir}/local.conf); then
-        sed -i -e '/<fontconfig>/a<include ignore_missing="yes">culmus.conf</include>' %{fcconf_dir}/local.conf
 fi
 
 %postun
@@ -109,17 +101,19 @@ rm -rf $RPM_BUILD_ROOT
 %doc CHANGES LICENSE LICENSE-BITSTREAM GNU-GPL
 %config(noreplace) %{type1_fonts_dir}/fonts.dir
 %config(noreplace) %{type1_fonts_dir}/fonts.scale
-%config(noreplace) %{type1_fonts_dir}/XftCache
 %config(noreplace) %{ttf_fonts_dir}/fonts.dir
 %config(noreplace) %{ttf_fonts_dir}/fonts.scale
-%config(noreplace) %{ttf_fonts_dir}/XftCache
-%config		   %{fcconf_dir}/culmus.conf
+%config(noreplace) %{fcconfig_dir}/39-culmus.conf
 %{type1_fonts_dir}/*.afm
 %{type1_fonts_dir}/*.pfa
 %{ttf_fonts_dir}/*.ttf
-%{type1_fonts_dir}/local.conf
+%{type1_fonts_dir}/XftCache
+%{ttf_fonts_dir}/XftCache
 
 %changelog
+* Wed Nov 17 2010 Maxim Iorsh <iorsh@users.sourceforge.net> 0.120-1
+- removed local.conf, moved culmus.conf, cleaned
+
 * Sat Jul 17 2008 Maxim Iorsh <iorsh@math.technion.ac.il> 0.102-1
 - added TrueType directory
 

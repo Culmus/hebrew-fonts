@@ -1,6 +1,19 @@
 Culmus Hebrew fonts
 ==============
 
+18-Nov-2010: version 0.120
+-------------------------
+Keter YG by Yoram Gnat added, minor changes in other fonts.
+
+Changes:
+ 1. Keter YG - complete family with cantillation marks support. Based on
+    Aleppo codex.
+ 2. Left quotes added to David, Miriam, Miriam Mono.
+ 3. Geresh and gershayim lowered in David, Miriam, Miriam Mono.
+ 4. Dreydl symbol added to Caladings.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 14-Oct-2010: version 0.110
 -------------------------
 Four new TrueType fonts added, by Yoram Gnat.

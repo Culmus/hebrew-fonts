@@ -8,12 +8,17 @@ This script generates .TTF file
 This script was developed and tested with build 20071110.
 */
 
-if ($argc < 3)
+if ($argc < 2)
 	Error("Exiting - not enough arguments");
 endif
 
 fontFile = $1;
-outputDir = $2;
+
+if ($argc < 3)
+	outputDir = ".";
+else
+	outputDir = $2;
+endif
 
 // Try to open the font. A failure may occur due to incorrect font
 // format or missing file. Such failure will cause the script to abort.

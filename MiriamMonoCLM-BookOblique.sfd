@@ -3,8 +3,8 @@ FontName: MiriamMonoCLM-BookOblique
 FullName: Miriam Mono CLM Book Oblique
 FamilyName: Miriam Mono CLM
 Weight: Book
-Copyright: Copyright .51 2002-2004 by Maxim Iorsh (iorsh@math.technion.ac.il). Distributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html).\n\nHebrew vowel marks positioning algorithms implementation by Yoram Gnat 2010 (yoramg@shenkar.ac.il). \n\nLatin glyphs, digits and punctuation Copyright (URW)++,Copyright 1999 by (URW)++ Design & Development.\nAll rights reserved.
-Version: 0.105
+Copyright: Copyright 2002-2010 by Maxim Iorsh (iorsh@math.technion.ac.il). Distributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html).\n\nHebrew vowel marks positioning algorithms implementation by Yoram Gnat 2010 (yoramg@shenkar.ac.il). \n\nLatin glyphs, digits and punctuation Copyright (URW)++,Copyright 1999 by (URW)++ Design & Development.\nAll rights reserved.
+Version: 0.120
 ItalicAngle: -12
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1235598109
-ModificationTime: 1281804754
+ModificationTime: 1289934417
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -204,13 +204,12 @@ MATH:RadicalKernAfterDegree: -555
 MATH:RadicalDegreeBottomRaisePercent: 60
 MATH:MinConnectorOverlap: 20
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 26 26 9
+WinInfo: 8164 26 9
 BeginPrivate: 5
 BlueValues 40 [-16 0 417 431 563 576 604 604 612 618 ]
 OtherBlues 12 [-186 -186 ]
@@ -219,7 +218,7 @@ StemSnapH 5 [41 ]
 BlueShift 2 21
 EndPrivate
 AnchorClass2: "D"  "'mark' Dagesh for Holam_Haser" "H"  "'mark' Hatafim" "W"  "'mark' Wide" "Q"  "'mark' Qubuts" "N"  "'mark' Narrow" "J1"  "Hiriq after Patah in Jerusalem Anchor-1" "M1"  "Meteg Reposition Anchor" "VR"  "Vowel Repositioning Anchor" "M2V"  "Meteg to Vowel Anchor" "Holam_Haser_on Vav"  "'mark' Holam Haser on Vav" "Holam"  "'mark' Holam" 
-BeginChars: 65538 254
+BeginChars: 65538 256
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -6198,49 +6197,85 @@ EndChar
 StartChar: quoteright
 Encoding: 8217 8217 186
 Width: 600
-Flags: W
-HStem: 314 290
-VStem: 207 261
+Flags: HW
+HStem: 584 20G<335 468 468 468>
 LayerCount: 2
 Fore
-Refer: 8 39 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+335 604 m 1
+ 468 604 l 1
+ 267 339 l 2
+ 252 320 244 314 230 314 c 0
+ 217 314 207 324 207 337 c 0
+ 207 342 209 348 212 354 c 2
+ 335 604 l 1
+EndSplineSet
 EndChar
 
 StartChar: quotesinglbase
 Encoding: 8218 8218 187
 Width: 600
-Flags: W
-HStem: -148 290
-VStem: 207 261
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 8 39 N 1 0 0 1 0 -462 2
-Validated: 1
+SplineSet
+238 145 m 1
+ 371 145 l 1
+ 170 -120 l 2
+ 155 -139 147 -145 133 -145 c 0
+ 120 -145 110 -135 110 -122 c 0
+ 110 -117 112 -111 115 -105 c 2
+ 238 145 l 1
+EndSplineSet
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 188
 Width: 600
 Flags: W
-HStem: 315 289<274 308.754 454 488.642>
-VStem: 254 328
+HStem: 584 20G<292 418 418 418 509 635 635 635>
 LayerCount: 2
 Fore
-Refer: 3 34 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+292 604 m 1
+ 418 604 l 1
+ 230 365 l 2
+ 217 349 207 343 194 343 c 0
+ 181 343 170 352 170 364 c 0
+ 170 368 172 374 174 379 c 2
+ 292 604 l 1
+509 604 m 1
+ 635 604 l 1
+ 447 365 l 2
+ 434 349 425 343 412 343 c 0
+ 398 343 387 352 387 364 c 0
+ 387 368 388 373 391 379 c 2
+ 509 604 l 1
+EndSplineSet
 EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 189
 Width: 600
-Flags: W
-HStem: -147 289<274 308.754 454 488.642>
-VStem: 254 328
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 3 34 N 1 0 0 1 0 -462 2
-Validated: 1
+SplineSet
+195 145 m 1
+ 321 145 l 1
+ 133 -94 l 2
+ 120 -110 110 -116 97 -116 c 0
+ 84 -116 73 -107 73 -95 c 0
+ 73 -91 75 -85 77 -80 c 2
+ 195 145 l 1
+412 145 m 1
+ 538 145 l 1
+ 350 -94 l 2
+ 337 -110 328 -116 315 -116 c 0
+ 301 -116 290 -107 290 -95 c 0
+ 290 -91 291 -86 294 -80 c 2
+ 412 145 l 1
+EndSplineSet
 EndChar
 
 StartChar: afii57636
@@ -7660,6 +7695,49 @@ Flags: MW
 LayerCount: 2
 MultipleSubs2: "Special Decomposition Table" afii57673 afii57793
 Ligature2: "'ccmp' Yod Hiriq in Hebrew Script" afii57673 afii57793
+EndChar
+
+StartChar: quoteleft
+Encoding: 8216 8216 254
+Width: 600
+Flags: W
+HStem: 343 261<501.5 517.5>
+LayerCount: 2
+Fore
+SplineSet
+522 604 m 1
+ 544 379 l 1
+ 544 376 l 2
+ 544 358 527 343 508 343 c 0
+ 495 343 489 348 482 365 c 2
+ 388 604 l 1
+ 522 604 l 1
+EndSplineSet
+EndChar
+
+StartChar: quotedblleft
+Encoding: 8220 8220 255
+Width: 600
+Flags: W
+HStem: 343 261<326.5 342.5 543.5 559.5>
+LayerCount: 2
+Fore
+SplineSet
+564 604 m 1
+ 586 379 l 1
+ 586 376 l 2
+ 586 358 569 343 550 343 c 0
+ 537 343 530 349 524 365 c 2
+ 438 604 l 1
+ 564 604 l 1
+347 604 m 1
+ 369 379 l 1
+ 369 376 l 2
+ 369 358 352 343 333 343 c 0
+ 320 343 313 349 307 365 c 2
+ 221 604 l 1
+ 347 604 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

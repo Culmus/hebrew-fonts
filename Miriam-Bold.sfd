@@ -5,7 +5,7 @@ FamilyName: Miriam CLM
 Weight: Bold
 Copyright: Copyright 2004-2010 by Maxim Iorsh (iorsh@users.sourceforge.net). Distributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html). \nAll rights reserved.
 UComments: "distorted bitmap stretch 133.3333% 100%+AAoACgAA-stretch bitmap 114.3%" 
-Version: 0.105
+Version: 0.120
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1163025780
-ModificationTime: 1282509063
+ModificationTime: 1289933799
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -62,6 +62,7 @@ Lookup: 260 1 0 "DiaToBase3"  {"DiaToBase3"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 260 1 0 "DiaToBase2"  {"DiaToBase2"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 260 1 0 "DiaToBase1"  {"DiaToBase1"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 258 1 0 "_Diakern"  {"_Diakern"  } ['kern' ('hebr' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "ccmpVavHolam subtable"  0 0 0 1
  2 1 0
@@ -91,7 +92,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 22 11 7
+WinInfo: 55 11 7
 BeginPrivate: 4
 BlueValues 15 [-20 0 600 615]
 StdHW 5 [105]
@@ -108,7 +109,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 524288 262144 174762 0 1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "DiaToBaseD"  "DiaToBaseD" "DiaToBaseO"  "DiaToBaseO" "DiaToBaseU"  "DiaToBaseU" "DiaToBase3"  "DiaToBase3" "DiaToBase2"  "DiaToBase2" "DiaToBase1"  "DiaToBase1" 
-BeginChars: 65536 151
+BeginChars: 65536 153
 
 StartChar: space
 Encoding: 32 32 0
@@ -182,29 +183,29 @@ StartChar: quotedbl
 Encoding: 34 34 2
 Width: 503
 VWidth: 1000
-Flags: HW
-HStem: 380 266<134.406 150.674 250.363 267.613 344.406 360.674>
+Flags: W
+HStem: 380 266<134.406 150.674 260.363 267.613 354.406 370.674>
 LayerCount: 2
 Back
 SplineSet
-273.541 617 m 2
- 282.578 637.833 293.041 646 314.541 646 c 2
- 347.541 646 l 2
- 369.541 646 375.949 635.499 363.541 613 c 2
- 280.541 462.5 l 2
- 270.896 445.011 263.541 440 249.041 440 c 2
- 223.041 440 l 2
- 205.541 440 201.298 450.455 208.041 466 c 2
- 273.541 617 l 2
-118.541 617 m 2
- 127.578 637.833 138.041 646 159.541 646 c 2
- 192.541 646 l 2
- 214.541 646 220.949 635.499 208.541 613 c 2
- 125.541 462.5 l 2
- 115.896 445.011 108.541 440 94.041 440 c 2
- 68.041 440 l 2
- 50.541 440 46.2979 450.455 53.041 466 c 2
- 118.541 617 l 2
+343.613 602.5 m 2
+ 357.168 633.75 372.863 646 405.113 646 c 2
+ 454.613 646 l 2
+ 487.613 646 497.227 630.248 478.613 596.5 c 2
+ 376.613 413.75 l 2
+ 362.146 387.517 351.113 380 329.363 380 c 2
+ 286.613 380 l 2
+ 260.363 380 253.998 395.683 264.113 419 c 2
+ 343.613 602.5 l 2
+123.613 602.5 m 2
+ 137.168 633.75 152.863 646 185.113 646 c 2
+ 234.613 646 l 2
+ 267.613 646 277.227 630.248 258.613 596.5 c 2
+ 156.613 413.75 l 2
+ 142.146 387.517 131.113 380 109.363 380 c 2
+ 66.6123 380 l 2
+ 40.3623 380 33.998 395.683 44.1123 419 c 2
+ 123.613 602.5 l 2
 EndSplineSet
 Fore
 SplineSet
@@ -4486,7 +4487,7 @@ VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 5 39 N 1 0 0 1 0 0 2
+Refer: 5 39 S 1 0 0 1 -11 -22 2
 EndChar
 
 StartChar: uni05F4
@@ -4494,9 +4495,13 @@ Encoding: 1524 1524 63
 Width: 503
 VWidth: 1000
 Flags: HW
+HStem: 350 266<119.406 135.674 245.363 252.613 339.406 355.674>
 LayerCount: 2
-Fore
+Back
+Refer: 2 34 S 1 0 0 1 -15 -30 2
 Refer: 2 34 N 1 0 0 1 0 0 2
+Fore
+Refer: 2 34 S 1 0 0 1 -11 -22 2
 EndChar
 
 StartChar: afii57636
@@ -5002,6 +5007,7 @@ Encoding: 8221 8221 78
 Width: 503
 VWidth: 1000
 Flags: HW
+HStem: 380 266<134.406 150.674 260.363 267.613 354.406 370.674>
 LayerCount: 2
 Fore
 Refer: 2 34 N 1 0 0 1 0 0 2
@@ -6107,6 +6113,7 @@ LayerCount: 2
 Fore
 Refer: 44 1497 S 1 0 0 1 332 0 2
 Refer: 44 1497 N 1 0 0 1 0 0 2
+LCarets2: 1 0 
 Ligature2: "Yiddish" afii57673 afii57673
 EndChar
 
@@ -6957,6 +6964,27 @@ EndSplineSet
 Ligature2: "AlephLamed2" afii57664 afii57676
 Ligature2: "AlephLamed" afii57664 afii57676
 LCarets2: 1 0 
+EndChar
+
+StartChar: quotedblleft
+Encoding: 8220 8220 151
+Width: 503
+VWidth: 1000
+Flags: HW
+HStem: 380 266<132.326 148.594 235.387 242.637 352.326 368.594>
+LayerCount: 2
+Fore
+Refer: 2 34 N -1 0 0 -1 503 1026 2
+EndChar
+
+StartChar: quoteleft
+Encoding: 8216 8216 152
+Width: 282
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 5 39 N -1 0 0 -1 282 1026 2
 EndChar
 EndChars
 EndSplineFont

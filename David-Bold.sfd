@@ -5,7 +5,7 @@ FamilyName: David CLM
 Weight: Bold
 Copyright: Copyright 2002-2010 by Maxim Iorsh (iorsh@users.sourceforge.net).\nDistributed under the terms of GNU General Public License version 2(http://www.gnu.org/licenses/gpl.html). \nLatin glyphs and part of punctuation copyright 1990 as an unpublished work by Bitstream Inc. \nAll rights reserved.
 UComments: "2002-9-22: Created." 
-Version: 0.105
+Version: 0.120
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1163025784
-ModificationTime: 1282506995
+ModificationTime: 1289933739
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -62,6 +62,7 @@ Lookup: 260 1 0 "DiaToBase3"  {"DiaToBase3"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 260 1 0 "DiaToBase2"  {"DiaToBase2"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 260 1 0 "DiaToBase1"  {"DiaToBase1"  } ['mark' ('hebr' <'dflt' > ) ]
 Lookup: 258 1 0 "_Diakern"  {"_Diakern"  } ['kern' ('hebr' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "ccmpVavHolam subtable"  0 0 0 1
  2 1 0
@@ -90,7 +91,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65 13 7
+WinInfo: 78 13 7
 Grid
 -162.66 654.992 m 25
  1070 655 l 25
@@ -108,7 +109,7 @@ Grid
  1131 600 l 25
 EndSplineSet
 AnchorClass2: "DiaToBaseD"  "DiaToBaseD" "DiaToBaseO"  "DiaToBaseO" "DiaToBaseU"  "DiaToBaseU" "DiaToBase3"  "DiaToBase3" "DiaToBase2"  "DiaToBase2" "DiaToBase1"  "DiaToBase1" 
-BeginChars: 65537 212
+BeginChars: 65537 214
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -436,17 +437,17 @@ StartChar: quotesingle
 Encoding: 39 39 6
 Width: 234
 VWidth: 1000
-Flags: W
+Flags: HW
 HStem: 371.498 429.002<66.7012 201.352>
 VStem: 30 171.352<389.461 800.5>
 LayerCount: 2
 Back
 SplineSet
-60.002 687.498 m 1
- 99 733 140.111 767.677 193.279 800.5 c 1
- 268.336 687.646 213.732 473.492 58.6289 371.498 c 1
- 50.4016 370.745 29.6416 383.457 21.9277 389.461 c 1
- 60.6641 488.572 92.8623 572.506 60.002 687.498 c 1
+68.0742 687.498 m 1
+ 107.072 733 148.184 767.677 201.352 800.5 c 1
+ 276.408 687.646 221.805 473.492 66.7012 371.498 c 1
+ 58.4736 370.745 37.7139 383.457 30 389.461 c 1
+ 68.7363 488.572 100.935 572.506 68.0742 687.498 c 1
 EndSplineSet
 Fore
 SplineSet
@@ -2483,15 +2484,15 @@ StartChar: a
 Encoding: 97 97 64
 Width: 544
 VWidth: 1000
-Flags: HW
-HStem: -9 77<171 246> 0 21G<356 534> 446 53<248 281>
-VStem: 40 132<120 143> 63 138<374 392> 343 125<97 261 311 348>
+Flags: W
+HStem: -9 77<132.5 274.836> 0 44<481 534> 261 51<254.779 343> 446 53<201.619 319.605>
+VStem: 40 132<83.2539 202.944> 63 138<347.984 437.6> 343 125<85.5854 261 307.643 423.543>
 LayerCount: 2
 Fore
 SplineSet
-343 57 m 1x6c
+343 57 m 1x76
  279 14 225 -9 171 -9 c 0
- 94 -9 40 45 40 121 c 0xb4
+ 94 -9 40 45 40 121 c 0xba
  40 236 135 265 344 312 c 1
  344 342 l 2
  344 414 315 446 249 446 c 0
@@ -2506,7 +2507,7 @@ SplineSet
  534 44 l 1
  534 0 l 1
  356 0 l 1
- 343 57 l 1x6c
+ 343 57 l 1x76
 343 98 m 1
  343 261 l 1
  225 235 172 209 172 143 c 0
@@ -5464,26 +5465,29 @@ EndChar
 
 StartChar: uni05F3
 Encoding: 1523 1523 144
-Width: 234
+Width: 268
 VWidth: 1000
-Flags: W
+Flags: HW
 HStem: 371.498 429.002<66.7012 201.352>
 VStem: 30 171.352<389.461 800.5>
 LayerCount: 2
+Back
+Refer: 6 39 S 1 0 0 1 0 -70 2
+Refer: 6 39 N 1 0 0 1 0 0 2
 Fore
-Refer: 6 39 S 1 0 0 1 0 0 2
+Refer: 6 39 S 1 0 0 1 0 -50 2
 EndChar
 
 StartChar: uni05F4
 Encoding: 1524 1524 145
-Width: 485
+Width: 518
 VWidth: 1000
-Flags: W
-HStem: 370.998 429.502<66.75 451.875>
-VStem: 30 421.875<388.96 800.5>
+Flags: HW
+HStem: 300.998 429.502<66.75 451.875>
+VStem: 30 421.875<318.96 730.5>
 LayerCount: 2
 Fore
-Refer: 1 34 S 1 0 0 1 0 0 2
+Refer: 1 34 S 1 0 0 1 0 -50 2
 EndChar
 
 StartChar: afii61664
@@ -5598,7 +5602,7 @@ StartChar: quoteright
 Encoding: 8217 8217 153
 Width: 234
 VWidth: 1000
-Flags: W
+Flags: HW
 HStem: 371.498 429.002<66.7012 201.352>
 VStem: 30 171.352<389.461 800.5>
 LayerCount: 2
@@ -5610,7 +5614,7 @@ StartChar: quotesinglbase
 Encoding: 8218 8218 154
 Width: 234
 VWidth: 1000
-Flags: W
+Flags: HW
 HStem: -222.502 429.002<66.7012 201.352>
 VStem: 30 171.352<-204.539 206.5>
 LayerCount: 2
@@ -6941,6 +6945,30 @@ Fore
 Refer: 123 1497 N 1 0 0 1 0 0 2
 Refer: 98 1460 S 1 0 0 1 155.5 172.5 2
 Ligature2: "Yiddish" afii57673 afii57793
+EndChar
+
+StartChar: quotedblleft
+Encoding: 8220 8220 212
+Width: 485
+VWidth: 998
+Flags: W
+HStem: 363.995 429.502<33.3695 418.495>
+VStem: 33.3695 421.875<363.995 775.535>
+LayerCount: 2
+Fore
+Refer: 1 34 N -1 0 0 -1 485.245 1164.5 2
+EndChar
+
+StartChar: quoteleft
+Encoding: 8216 8216 213
+Width: 234
+VWidth: 1000
+Flags: HW
+HStem: 364.466 429.002<33.3298 167.981>
+VStem: 33.3298 171.352<364.466 775.505>
+LayerCount: 2
+Fore
+Refer: 6 39 S -1 0 0 -1 234.682 1164.97 2
 EndChar
 EndChars
 EndSplineFont

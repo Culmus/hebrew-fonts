@@ -1,0 +1,39 @@
+#!/usr/bin/fontforge
+
+/* This script for PfaEdit was created by Maxim Iorsh in 2003. It is public
+domain. You can use it in any way and for any purpose.
+
+This script generates .PFA and .AFM files
+
+This script was developed and tested with build 20090923.
+*/
+
+// Try to determine whether there is an active font
+if ($firstfont == "")
+	// No font is currently loaded
+	// Try to get font name from argument
+	if ($argc < 2)
+		Error("Exiting - not enough arguments");
+	else
+		fontFile = $1;	// font name = first argument
+		if ($argc == 2)
+			outputDir = ".";
+		else
+			outputDir = $2; // output directory = second argument
+		endif
+	endif
+else
+	fontFile = $curfont;	// font name = current active font
+	outputDir = $2;		// output directory = first argument
+endif
+
+// Try to open the font. If this is the current font (obtained from $curfont),
+// pfaedit will do nothing. If this is a file name obtained from command line,
+// a failure may occur due to incorrect font format or missing file. Such
+// failure will cause the script to abort.
+Open(fontFile);
+
+// Now perform the export to PFA
+
+// OBSOLETE ControlAfmLigatureOutput("*", "dflt", "liga,rlig,ccmp");
+Generate(outputDir + "/" + $fontname + ".pfa");

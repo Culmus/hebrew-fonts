@@ -1,0 +1,67 @@
+66
+AharoniCLM-Bold.pfa -culmus-aharoni clm-bold-r-normal--0-0-0-0-p-0-adobe-fontspecific
+AharoniCLM-Bold.pfa -culmus-aharoni clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
+AharoniCLM-BoldOblique.pfa -culmus-aharoni clm-bold-o-normal--0-0-0-0-p-0-adobe-fontspecific
+AharoniCLM-BoldOblique.pfa -culmus-aharoni clm-bold-o-normal--0-0-0-0-p-0-iso10646-1
+AharoniCLM-Book.pfa -culmus-aharoni clm-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
+AharoniCLM-Book.pfa -culmus-aharoni clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+AharoniCLM-BookOblique.pfa -culmus-aharoni clm-medium-o-normal--0-0-0-0-p-0-adobe-fontspecific
+AharoniCLM-BookOblique.pfa -culmus-aharoni clm-medium-o-normal--0-0-0-0-p-0-iso10646-1
+CaladingsCLM.pfa -culmus-caladings clm-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
+CaladingsCLM.pfa -culmus-caladings clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DavidCLM-Bold.ttf -misc-david clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
+DavidCLM-BoldItalic.ttf -misc-david clm-bold-i-normal--0-0-0-0-p-0-iso10646-1
+DavidCLM-Medium.ttf -misc-david clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+DavidCLM-MediumItalic.ttf -misc-david clm-medium-i-normal--0-0-0-0-p-0-iso10646-1
+DrugulinCLM-Bold.pfa -culmus-drugulin clm-bold-r-normal--0-0-0-0-p-0-adobe-fontspecific
+DrugulinCLM-Bold.pfa -culmus-drugulin clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
+DrugulinCLM-BoldItalic.pfa -culmus-drugulin clm-bold-i-normal--0-0-0-0-p-0-adobe-fontspecific
+DrugulinCLM-BoldItalic.pfa -culmus-drugulin clm-bold-i-normal--0-0-0-0-p-0-iso10646-1
+ElliniaCLM-Bold.pfa -culmus-ellinia clm-bold-r-normal--0-0-0-0-p-0-adobe-fontspecific
+ElliniaCLM-Bold.pfa -culmus-ellinia clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
+ElliniaCLM-BoldItalic.pfa -culmus-ellinia clm-bold-i-normal--0-0-0-0-p-0-adobe-fontspecific
+ElliniaCLM-BoldItalic.pfa -culmus-ellinia clm-bold-i-normal--0-0-0-0-p-0-iso10646-1
+ElliniaCLM-Light.pfa -culmus-ellinia clm-light-r-normal--0-0-0-0-p-0-adobe-fontspecific
+ElliniaCLM-Light.pfa -culmus-ellinia clm-light-r-normal--0-0-0-0-p-0-iso10646-1
+ElliniaCLM-LightItalic.pfa -culmus-ellinia clm-light-i-normal--0-0-0-0-p-0-adobe-fontspecific
+ElliniaCLM-LightItalic.pfa -culmus-ellinia clm-light-i-normal--0-0-0-0-p-0-iso10646-1
+FrankRuehlCLM-Bold.pfa -culmus-frank ruehl clm-bold-r-normal--0-0-0-0-p-0-adobe-fontspecific
+FrankRuehlCLM-Bold.pfa -culmus-frank ruehl clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
+FrankRuehlCLM-BoldOblique.pfa -culmus-frank ruehl clm-bold-o-normal--0-0-0-0-p-0-adobe-fontspecific
+FrankRuehlCLM-BoldOblique.pfa -culmus-frank ruehl clm-bold-o-normal--0-0-0-0-p-0-iso10646-1
+FrankRuehlCLM-Medium.pfa -culmus-frank ruehl clm-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
+FrankRuehlCLM-Medium.pfa -culmus-frank ruehl clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+FrankRuehlCLM-MediumOblique.pfa -culmus-frank ruehl clm-medium-o-normal--0-0-0-0-p-0-adobe-fontspecific
+FrankRuehlCLM-MediumOblique.pfa -culmus-frank ruehl clm-medium-o-normal--0-0-0-0-p-0-iso10646-1
+HadasimCLM-Bold.ttf -misc-hadasim clm-bold-r-expanded--0-0-0-0-p-0-iso10646-1
+HadasimCLM-BoldOblique.ttf -misc-hadasim clm-bold-o-expanded--0-0-0-0-p-0-iso10646-1
+HadasimCLM-Regular.ttf -misc-hadasim clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+HadasimCLM-RegularOblique.ttf -misc-hadasim clm-medium-o-normal--0-0-0-0-p-0-iso10646-1
+KeterYG-Bold.ttf -misc-keter yg-bold-r-normal--0-0-0-0-p-0-iso10646-1
+KeterYG-BoldOblique.ttf -misc-keter yg-bold-o-normal--0-0-0-0-p-0-iso10646-1
+KeterYG-Medium.ttf -misc-keter yg-medium-r-normal--0-0-0-0-p-0-iso10646-1
+KeterYG-MediumOblique.ttf -misc-keter yg-medium-o-normal--0-0-0-0-p-0-iso10646-1
+MiriamCLM-Bold.ttf -misc-miriam clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
+MiriamCLM-Book.ttf -misc-miriam clm-medium-r-semicondensed--0-0-0-0-p-0-iso10646-1
+MiriamMonoCLM-Bold.ttf -misc-miriam mono clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
+MiriamMonoCLM-BoldOblique.ttf -misc-miriam mono clm-bold-o-normal--0-0-0-0-p-0-iso10646-1
+MiriamMonoCLM-Book.ttf -misc-miriam mono clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+MiriamMonoCLM-BookOblique.ttf -misc-miriam mono clm-medium-o-normal--0-0-0-0-p-0-iso10646-1
+NachlieliCLM-Bold.pfa -culmus-nachlieli clm-bold-r-normal--0-0-0-0-p-0-adobe-fontspecific
+NachlieliCLM-Bold.pfa -culmus-nachlieli clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
+NachlieliCLM-BoldOblique.pfa -culmus-nachlieli clm-bold-o-normal--0-0-0-0-p-0-adobe-fontspecific
+NachlieliCLM-BoldOblique.pfa -culmus-nachlieli clm-bold-o-normal--0-0-0-0-p-0-iso10646-1
+NachlieliCLM-Light.pfa -culmus-nachlieli clm-light-r-normal--0-0-0-0-p-0-adobe-fontspecific
+NachlieliCLM-Light.pfa -culmus-nachlieli clm-light-r-normal--0-0-0-0-p-0-iso10646-1
+NachlieliCLM-LightOblique.pfa -culmus-nachlieli clm-light-o-normal--0-0-0-0-p-0-adobe-fontspecific
+NachlieliCLM-LightOblique.pfa -culmus-nachlieli clm-light-o-normal--0-0-0-0-p-0-iso10646-1
+SimpleCLM-Bold.ttf -misc-simple clm-bold-r-expanded--0-0-0-0-p-0-iso10646-1
+SimpleCLM-BoldOblique.ttf -misc-simple clm-bold-o-expanded--0-0-0-0-p-0-iso10646-1
+SimpleCLM-Medium.ttf -misc-simple clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+SimpleCLM-MediumOblique.ttf -misc-simple clm-medium-o-normal--0-0-0-0-p-0-iso10646-1
+StamAshkenazCLM.ttf -misc-stam ashkenaz clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+StamSefaradCLM.ttf -misc-stam sefarad clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+YehudaCLM-Bold.pfa -culmus-yehuda clm-bold-r-normal--0-0-0-0-p-0-adobe-fontspecific
+YehudaCLM-Bold.pfa -culmus-yehuda clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
+YehudaCLM-Light.pfa -culmus-yehuda clm-light-r-normal--0-0-0-0-p-0-adobe-fontspecific
+YehudaCLM-Light.pfa -culmus-yehuda clm-light-r-normal--0-0-0-0-p-0-iso10646-1

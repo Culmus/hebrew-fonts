@@ -1,4 +1,4 @@
-66
+62
 AharoniCLM-Bold.pfa -culmus-aharoni clm-bold-r-normal--0-0-0-0-p-0-adobe-fontspecific
 AharoniCLM-Bold.pfa -culmus-aharoni clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
 AharoniCLM-BoldOblique.pfa -culmus-aharoni clm-bold-o-normal--0-0-0-0-p-0-adobe-fontspecific
@@ -25,14 +25,10 @@ ElliniaCLM-Light.pfa -culmus-ellinia clm-light-r-normal--0-0-0-0-p-0-adobe-fonts
 ElliniaCLM-Light.pfa -culmus-ellinia clm-light-r-normal--0-0-0-0-p-0-iso10646-1
 ElliniaCLM-LightItalic.pfa -culmus-ellinia clm-light-i-normal--0-0-0-0-p-0-adobe-fontspecific
 ElliniaCLM-LightItalic.pfa -culmus-ellinia clm-light-i-normal--0-0-0-0-p-0-iso10646-1
-FrankRuehlCLM-Bold.pfa -culmus-frank ruehl clm-bold-r-normal--0-0-0-0-p-0-adobe-fontspecific
-FrankRuehlCLM-Bold.pfa -culmus-frank ruehl clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
-FrankRuehlCLM-BoldOblique.pfa -culmus-frank ruehl clm-bold-o-normal--0-0-0-0-p-0-adobe-fontspecific
-FrankRuehlCLM-BoldOblique.pfa -culmus-frank ruehl clm-bold-o-normal--0-0-0-0-p-0-iso10646-1
-FrankRuehlCLM-Medium.pfa -culmus-frank ruehl clm-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
-FrankRuehlCLM-Medium.pfa -culmus-frank ruehl clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
-FrankRuehlCLM-MediumOblique.pfa -culmus-frank ruehl clm-medium-o-normal--0-0-0-0-p-0-adobe-fontspecific
-FrankRuehlCLM-MediumOblique.pfa -culmus-frank ruehl clm-medium-o-normal--0-0-0-0-p-0-iso10646-1
+FrankRuehlCLM-Bold.ttf -culmus-frank ruehl clm-bold-r-normal--0-0-0-0-p-0-iso10646-1
+FrankRuehlCLM-BoldOblique.ttf -culmus-frank ruehl clm-bold-o-normal--0-0-0-0-p-0-iso10646-1
+FrankRuehlCLM-Medium.ttf -culmus-frank ruehl clm-medium-r-normal--0-0-0-0-p-0-iso10646-1
+FrankRuehlCLM-MediumOblique.ttf -culmus-frank ruehl clm-medium-o-normal--0-0-0-0-p-0-iso10646-1
 HadasimCLM-Bold.ttf -misc-hadasim clm-bold-r-expanded--0-0-0-0-p-0-iso10646-1
 HadasimCLM-BoldOblique.ttf -misc-hadasim clm-bold-o-expanded--0-0-0-0-p-0-iso10646-1
 HadasimCLM-Regular.ttf -misc-hadasim clm-medium-r-normal--0-0-0-0-p-0-iso10646-1

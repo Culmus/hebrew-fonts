@@ -1,6 +1,6 @@
 Summary:	Free Hebrew scalable fonts
 Name:		culmus-fonts
-Version:	0.120
+Version:	0.121
 Release:	1
 Vendor:		Culmus Project
 
@@ -38,7 +38,7 @@ BuildArch:	noarch
 # Prereq:		chkfontpath
 
 %description
-A new TrueType font family Keter YG added, by Yoram Gnat.
+Frank Ruehl CLM now supports diacritics.
 
 14 Hebrew font families. Contain ASCII glyphs from various sources.
 Those families provide a basic set of a serif (Frank Ruehl), sans serif

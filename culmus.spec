@@ -1,6 +1,6 @@
 Summary:	Free Hebrew scalable fonts
 Name:		culmus-fonts
-Version:	0.121
+Version:	0.130
 Release:	1
 Vendor:		Culmus Project
 
@@ -38,13 +38,13 @@ BuildArch:	noarch
 # Prereq:		chkfontpath
 
 %description
-Frank Ruehl CLM now supports diacritics.
+Added new TrueType font "Shofar" by Yoram Gnat.
 
-14 Hebrew font families. Contain ASCII glyphs from various sources.
+15 Hebrew font families. Contain ASCII glyphs from various sources.
 Those families provide a basic set of a serif (Frank Ruehl), sans serif
 (Nachlieli) and monospaced (Miriam Mono) fonts. Also included Miriam,
 Drugulin, Aharoni, David, Hadasim etc. Cantillation marks support is available
-in Keter YG.
+in Keter YG and Shofar.
 
 Install the culmus-fonts package if you need a set of Hebrew fonts.
 

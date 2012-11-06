@@ -1,4 +1,4 @@
-28
+32
 DavidCLM-Medium.ttf -culmus-David-medium-r-normal--0-0-0-0-p-0-iso10646-1
 DavidCLM-MediumItalic.ttf -culmus-David-medium-i-normal--0-0-0-0-p-0-iso10646-1
 DavidCLM-Bold.ttf -culmus-David-bold-r-normal--0-0-0-0-p-0-iso10646-1
@@ -27,3 +27,7 @@ KeterYG-Bold.ttf -culmus-Keter YG-bold-r-normal--0-0-0-0-p-0-iso10646-1
 KeterYG-BoldOblique.ttf -culmus-Keter YG-bold-o-normal--0-0-0-0-p-0-iso10646-1
 KeterYG-Medium.ttf -culmus-Keter YG-medium-r-normal--0-0-0-0-p-0-iso10646-1
 KeterYG-MediumOblique.ttf -culmus-Keter YG-medium-o-normal--0-0-0-0-p-0-iso10646-1
+ShofarRegular.ttf -culmus-Shofar-medium-r-normal--0-0-0-0-p-0-iso10646-1
+ShofarRegularOblique.ttf -culmus-Shofar-medium-o-normal--0-0-0-0-p-0-iso10646-1
+ShofarDemi-Bold.ttf -culmus-Shofar-bold-r-normal--0-0-0-0-p-0-iso10646-1
+ShofarDemi-BoldOblique.ttf -culmus-Shofar-bold-o-normal--0-0-0-0-p-0-iso10646-1

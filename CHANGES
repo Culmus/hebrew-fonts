@@ -1,6 +1,14 @@
 Culmus Hebrew fonts
 ==============
 
+04-Nov-2012: version 0.130
+-------------------------
+Added new TrueType font "Shofar" by Yoram Gnat. Complete family with
+diacritics and cantillation marks. The font is inspired by Koren type, with
+redesigned letter forms and the height-to-width ratio.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 19-Dec-2011: version 0.121
 -------------------------
 Frank Ruehl CLM now supports diacritics.
